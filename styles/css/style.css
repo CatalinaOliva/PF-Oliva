@@ -1,3 +1,377 @@
+/* reseteo gral*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  background-color: #f3f4f4;
+}
+
+html {
+  font-size: 14px;
+}
+
+/* video de fondo pag uno */
+.backgroundContainer {
+  height: 100vh;
+}
+
+.mediaBackground {
+  z-index: -3;
+  overflow: hidden;
+}
+
+.mask {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.mask h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 5rem;
+  color: #f3f4f4;
+  text-align: center;
+}
+.mask p {
+  color: #f3f4f4;
+  font-size: 1rem;
+  font-family: "ABeeZee", sans-serif;
+  text-align: center;
+}
+
+/* comienzo del grid en home */
+.gridContainer {
+  margin-left: 3%;
+  margin-right: 3%;
+  display: grid;
+  grid-template-areas: "section1  section2" "section3  section2" "section3  section4" "section5  section4" "section5  section4";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+/* section 1 */
+.section1 {
+  grid-area: section1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 8%;
+}
+
+/* section 2 */
+.section2 {
+  grid-area: section2;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.section2 img {
+  width: 100%;
+  padding: 3%;
+  height: 100%;
+}
+
+.imageBackground {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.noneStyle {
+  text-decoration: none;
+  font-family: "ABeeZee", sans-serif;
+  list-style: none;
+}
+
+.text-grid {
+  position: absolute;
+  width: 100%;
+  padding: 6%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* section 3 */
+.section3 {
+  grid-area: section3;
+  position: relative;
+}
+.section3 img {
+  width: 100%;
+  padding: 3%;
+  height: 100%;
+}
+
+/* section 4 */
+.section4 {
+  grid-area: section4;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5%;
+}
+
+.borderRadius {
+  border-radius: 100%;
+  width: 15vw;
+}
+
+/* section 5 */
+.section5 {
+  grid-area: section5;
+  width: 100%;
+  padding: 3%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.section5 img {
+  border-radius: 100%;
+  width: 100%;
+  position: absolute;
+  cursor: pointer;
+}
+
+.positionContainer {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.imgContainer {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.textContainer {
+  position: absolute;
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.textContainer h3 {
+  text-align: center;
+  font-size: 3rem;
+  color: #f3f4f4;
+  font-family: "Playfair Display", serif;
+}
+
+.lgTitle {
+  font-size: 3rem;
+  font-family: "Playfair Display", serif;
+  color: #f3f4f4;
+}
+
+.smTitle {
+  font-size: 1.5rem;
+  font-family: "ABeeZee", sans-serif;
+  color: #0d1b2a;
+}
+
+.smText {
+  font-size: 1rem;
+  font-family: "ABeeZee", sans-serif;
+  color: gray;
+}
+
+.gridImg {
+  height: 150vh;
+}
+
+.img {
+  background: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(.../resources/images/download.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.background {
+  height: 50vh;
+}
+
+.titleVolunt {
+  font-family: "Playfair Display", serif;
+  font-size: 5rem;
+}
+
+.textVolunt {
+  font-family: "ABeeZee", sans-serif;
+  font-size: 2rem;
+}
+
+.styleImg {
+  background: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)), url(../resources/images/photo_2022-12-20-17.59.55-200.jpeg) center no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.titleVolunt2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+}
+
+.styleImg2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)), url(../resources/images/sri-lanka-sea-turtle-rescue-and-rehabilitation-main-new1-pyo0b7gtweofhe4ss8zghf8liq3gtnyqhf1uk3ypl2.jpg) center no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.styleImg3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(../resources/images/Tanzania-Zanzibar-Teaching-Assistant-main-1-pyo235fkto7naf92ee0slscgbcxdgetdlwpyur5kau.jpg) center no-repeat;
+  background-size: auto;
+  background-size: cover;
+  display: block;
+}
+
+.styleImg4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../resources/images/product-5b573834dd3ab.[414].jpeg) center no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.styleImg5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../resources/images/ecuador-conservation-product-61f40cd471430.[414].jpeg) center no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.altura {
+  height: 465px;
+}
+
+.altura2 {
+  height: 200px;
+}
+
+.altura3 {
+  height: 285px;
+}
+
+.altura4 {
+  height: 300px;
+}
+
+/* footer */
+.iconSize {
+  width: 2.5rem;
+}
+
+.textVolunt2 {
+  font-family: "ABeeZee", sans-serif;
+  font-size: 1rem;
+}
+
+.margin {
+  margin-top: 0;
+}
+
+.padding {
+  padding-top: 50px;
+}
+
+/* grid en volunteering*/
+/* media queries*/
+@media screen and (max-width: 1024px) {
+  .mask h1 {
+    font-size: 3rem;
+  }
+  .mask p {
+    font-size: 0.75rem;
+  }
+  .textContainer h3 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .borderRadius {
+    display: none;
+  }
+  .lgTitle {
+    font-size: 2rem;
+  }
+  .textContainer h3 {
+    font-size: 1.5rem;
+  }
+  .titleVolunt {
+    font-size: 4rem;
+  }
+  .textVolunt {
+    font-size: 1.6rem;
+  }
+  .titleVolunt2 {
+    font-size: 1.5rem;
+  }
+  .textVolunt2 {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .mask h1 {
+    font-size: 2.75rem;
+  }
+  .gridContainer {
+    grid-template-areas: "section1" "section2" "section2" "section3" "section3" "section4" "section4" "section5";
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .titleVolunt {
+    font-size: 3rem;
+  }
+  .textVolunt {
+    font-size: 1.3rem;
+  }
+  .margin {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .padding {
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 425px) {
+  .styleImg .styleImg2 .styleImg3 .styleImg4 .styleImg5 {
+    padding-top: 1rem;
+  }
+  .iconSize {
+    width: 2rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .textVolunt {
+    font-size: 1.2rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

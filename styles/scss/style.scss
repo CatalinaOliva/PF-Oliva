@@ -1,0 +1,119 @@
+
+@import "./base/reset";
+@import "./utils/variables";
+@import "./pages/home";
+@import "./pages/volunteering";
+@import "./layout/footer";
+
+
+
+/* grid en volunteering*/
+
+
+
+
+/* media queries*/
+@media screen and (max-width: 1024px) {
+
+    .mask h1 {
+        font-size: 3rem;
+    }
+
+    .mask p {
+        font-size: 0.75rem;
+    }
+
+    .textContainer h3 {
+        font-size: 2rem;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .borderRadius {
+        display: none;
+    }
+
+    .lgTitle {
+        font-size: 2rem;
+    }
+
+    .textContainer h3 {
+        font-size: 1.5rem;
+    }
+
+    .titleVolunt {
+        font-size: 4rem;
+    }
+
+    .textVolunt {
+        font-size: 1.6rem;
+    }
+
+    .titleVolunt2 {
+        font-size: 1.5rem;
+    }
+
+    .textVolunt2 {
+        font-size: 0.8rem;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .mask h1 {
+        font-size: 2.75rem;
+    }
+
+    .gridContainer {
+        grid-template-areas:
+            "section1"
+            "section2"
+            "section2"
+            "section3"
+            "section3"
+            "section4"
+            "section4"
+            "section5";
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .titleVolunt {
+        font-size: 3rem;
+    }
+
+    .textVolunt {
+        font-size: 1.3rem;
+    }
+
+    .margin {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .padding {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .styleImg .styleImg2 .styleImg3 .styleImg4 .styleImg5 {
+        padding-top: 1rem;
+    }
+
+    .iconSize {
+        width: 2rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .textVolunt {
+        font-size: 1.2rem;
+    }
+}
