@@ -205,7 +205,7 @@ html {
 }
 
 .backgroundHeight {
-  height: 70vh;
+  height: 90vh;
 }
 .backgroundHeight h1 {
   font-family: "Playfair Display", serif;
@@ -215,9 +215,199 @@ html {
 }
 .backgroundHeight p {
   color: #f3f4f4;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-family: "ABeeZee", sans-serif;
   text-align: center;
+}
+
+.fondoAbout {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  background-color: rgb(226, 226, 226);
+}
+.fondoAbout h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
+  color: #0d1b2a;
+  text-align: center;
+}
+.fondoAbout p {
+  color: #1b263b;
+  font-size: 1.5rem;
+  font-family: "ABeeZee", sans-serif;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.textAbout p {
+  font-family: "ABeeZee", sans-serif;
+  font-size: 1.3rem;
+}
+
+.backgroundAbout {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.backgroundAbout h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+}
+.backgroundAbout p {
+  font-family: "ABeeZee", sans-serif;
+  font-size: 1.3rem;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.gridContainerAbout {
+  display: grid;
+  grid-template-areas: "uno  dos" "tres cuatro";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 1fr;
+}
+.gridContainerAboutuno {
+  grid-area: uno;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../../resources/images/euo-houssine-kaddachicabopulmo041_0.jpg) center no-repeat;
+  background-size: cover;
+  display: block;
+  height: 800px;
+  margin-bottom: 0px;
+}
+.gridContainerAboutuno h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.7rem;
+  color: #f3f4f4;
+  text-align: start;
+  margin-left: 8%;
+  margin-top: 5%;
+  margin-right: 8%;
+}
+.gridContainerAboutdos {
+  grid-area: dos;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../../resources/images/skimming.owja_credit_noaa.jpg) center no-repeat;
+  background-size: cover;
+  display: block;
+  height: 800px;
+  margin-bottom: 0px;
+}
+.gridContainerAboutdos h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.7rem;
+  color: #f3f4f4;
+  text-align: start;
+  margin-left: 8%;
+  margin-top: 5%;
+  margin-right: 8%;
+}
+.gridContainerAbouttres {
+  grid-area: tres;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../../resources/images/fishermen_mx.jpg) center no-repeat;
+  background-size: cover;
+  display: block;
+  height: 800px;
+  margin-bottom: 0px;
+}
+.gridContainerAbouttres h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.7rem;
+  color: #f3f4f4;
+  text-align: start;
+  margin-left: 8%;
+  margin-top: 5%;
+  margin-right: 8%;
+}
+.gridContainerAboutcuatro {
+  grid-area: cuatro;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../../resources/images/nao_oceana_melissaforsyth_img_0507.jpg) center no-repeat;
+  background-size: cover;
+  display: block;
+  height: 800px;
+  margin-bottom: 0px;
+}
+.gridContainerAboutcuatro h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.7rem;
+  color: #f3f4f4;
+  text-align: start;
+  margin-left: 8%;
+  margin-top: 5%;
+  margin-right: 8%;
+}
+
+.circle {
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: #0d1b2a;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-right: 42%;
+  margin-left: 42%;
+  margin-top: 10%;
+}
+
+.textGrid {
+  font-family: "ABeeZee", sans-serif;
+  color: #f3f4f4;
+  font-size: 1.5rem;
+  text-align: start;
+  margin-left: 8%;
+  margin-top: 2%;
+  margin-right: 8%;
+}
+
+.solutionAbout {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.solutionAbout h5 {
+  font-family: "Playfair Display", serif;
+  color: #0d1b2a;
+  font-size: 3rem;
+}
+.solutionAbout p {
+  font-size: 1.5rem;
+  font-family: "ABeeZee", sans-serif;
+  color: #0d1b2a;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.heightAbout {
+  height: 70vh;
+  margin-bottom: 3%;
+}
+
+.titleCardAbout {
+  margin-top: 10px;
+  font-family: "Playfair Display", serif;
+  font-size: 1.75rem;
+  color: #1b263b;
+}
+
+.textCardAbout {
+  font-family: "ABeeZee", sans-serif;
+  font-size: 1rem;
+  color: #1b263b;
 }
 
 .gridImg {
@@ -225,7 +415,7 @@ html {
 }
 
 .img {
-  background: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(.../resources/images/download.jpg) no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/download.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -244,7 +434,7 @@ html {
 }
 
 .styleImg {
-  background: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)), url(../resources/images/photo_2022-12-20-17.59.55-200.jpeg) center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)), url(../../resources/images/photo_2022-12-20-17.59.55-200.jpeg) center no-repeat;
   background-size: cover;
   display: block;
 }
@@ -255,26 +445,26 @@ html {
 }
 
 .styleImg2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)), url(../resources/images/sri-lanka-sea-turtle-rescue-and-rehabilitation-main-new1-pyo0b7gtweofhe4ss8zghf8liq3gtnyqhf1uk3ypl2.jpg) center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)), url(../../resources/images/sri-lanka-sea-turtle-rescue-and-rehabilitation-main-new1-pyo0b7gtweofhe4ss8zghf8liq3gtnyqhf1uk3ypl2.jpg) center no-repeat;
   background-size: cover;
   display: block;
 }
 
 .styleImg3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(../resources/images/Tanzania-Zanzibar-Teaching-Assistant-main-1-pyo235fkto7naf92ee0slscgbcxdgetdlwpyur5kau.jpg) center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(../../resources/images/Tanzania-Zanzibar-Teaching-Assistant-main-1-pyo235fkto7naf92ee0slscgbcxdgetdlwpyur5kau.jpg) center no-repeat;
   background-size: auto;
   background-size: cover;
   display: block;
 }
 
 .styleImg4 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../resources/images/product-5b573834dd3ab.[414].jpeg) center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../resources/images/product-5b573834dd3ab.[414].jpeg) center no-repeat;
   background-size: cover;
   display: block;
 }
 
 .styleImg5 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../resources/images/ecuador-conservation-product-61f40cd471430.[414].jpeg) center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../resources/images/ecuador-conservation-product-61f40cd471430.[414].jpeg) center no-repeat;
   background-size: cover;
   display: block;
 }
