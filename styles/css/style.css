@@ -67,22 +67,16 @@ html {
   width: 100%;
   height: 100%;
 }
-.section2 img {
-  width: 100%;
-  padding: 3%;
-  height: 100%;
-}
 
 .imageBackground {
   position: absolute;
   height: 100%;
   width: 100%;
 }
-
-.noneStyle {
-  text-decoration: none;
-  font-family: "ABeeZee", sans-serif;
-  list-style: none;
+.imageBackground img {
+  width: 100%;
+  padding: 3%;
+  height: 100%;
 }
 
 .text-grid {
@@ -94,6 +88,12 @@ html {
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: flex-start;
+}
+
+.noneStyle {
+  text-decoration: none;
+  font-family: "ABeeZee", sans-serif;
+  list-style: none;
 }
 
 /* section 3 */
@@ -111,8 +111,7 @@ html {
 .section4 {
   grid-area: section4;
 }
-
-.flexContainer {
+.section4 .flexContainer {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -120,8 +119,7 @@ html {
   align-items: center;
   padding: 5%;
 }
-
-.borderRadius {
+.section4 .borderRadius {
   border-radius: 100%;
   width: 15vw;
 }
@@ -138,14 +136,7 @@ html {
   align-content: center;
   justify-content: center;
 }
-.section5 img {
-  border-radius: 100%;
-  width: 100%;
-  position: absolute;
-  cursor: pointer;
-}
-
-.positionContainer {
+.section5 .positionContainer {
   position: relative;
   width: 50%;
   height: 50%;
@@ -156,8 +147,7 @@ html {
   align-items: center;
   align-content: center;
 }
-
-.imgContainer {
+.section5 .positionContainer .imgContainer {
   position: absolute;
   width: 90%;
   height: 100%;
@@ -168,8 +158,13 @@ html {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
-.textContainer {
+.section5 .positionContainer .imgContainer img {
+  border-radius: 100%;
+  width: 100%;
+  position: absolute;
+  cursor: pointer;
+}
+.section5 .positionContainer .textContainer {
   position: absolute;
   width: 45%;
   display: flex;
@@ -179,7 +174,7 @@ html {
   justify-content: center;
   align-items: center;
 }
-.textContainer h3 {
+.section5 .positionContainer .textContainer h3 {
   text-align: center;
   font-size: 3rem;
   color: #f3f4f4;
@@ -410,10 +405,6 @@ html {
   color: #1b263b;
 }
 
-.gridImg {
-  height: 150vh;
-}
-
 .img {
   background: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/download.jpg) no-repeat center;
   background-size: cover;
@@ -503,8 +494,6 @@ html {
   padding-top: 50px;
 }
 
-/* grid en volunteering*/
-/* media queries*/
 @media screen and (max-width: 1024px) {
   .mask h1 {
     font-size: 3rem;

@@ -6,17 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/css/style.css">
+    <link rel="shortcut icon" href="./resources/images/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>Oceana</title>
 </head>
-<link rel="stylesheet" href="./styles/css/style.css">
-<link rel="shortcut icon" href="./resources/images/logo.png" type="image/x-icon">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Playfair+Display&display=swap" rel="stylesheet">
-<title>Oceana</title>
-</head>
-
 
 <body>
+    <!-- nav bar -->
     <header>
         <!-- Navbar  -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
@@ -58,11 +57,9 @@
         </nav>
     </header>
 
-
-
-
     <main>
 
+        <!-- video de fondo -->
         <section class="backgroundContainer position-relative">
             <div class="mediaBackground position-absolute top-0 start-0 w-100 h-100">
                 <video src="./resources/videos/coverr-large-waves-crashing-on-the-rocky-shore-8765-1080p.mp4"
@@ -79,8 +76,7 @@
             </div>
         </section>
 
-        <!-- pag 2 -->
-
+        <!-- comienzo del grid -->
         <section class="gridContainer">
 
             <!-- section 1 -->
@@ -131,7 +127,9 @@
                     <div>
                         <h3 class="smTitle">Mexicans demand to know the origin of the fish they eat</h3>
                         <p class="smText">At the beginning of Lent, Oceana, an organization dedicated to the protection
-                            of the oceans, revealed that 84% of the... <a href="#">Read More</a>
+                            of the oceans, revealed that 84% of the... <a target="_blank"
+                                href="https://mx.oceana.org/comunicados/mexicanos-exigen-saber-el-origen-del-pescado-que-consumen/">Read
+                                More</a>
                         </p>
                     </div>
                     <div>
@@ -144,7 +142,8 @@
                     <div>
                         <h3 class="smTitle">Tilapia instead of cod</h3>
                         <p class="smText">During the Christmas season, one out of three times when they sell us cod, in
-                            Mexico City, they give us another species... <a href="#">Read More</a>
+                            Mexico City, they give us another species... <a target="_blank"
+                                href="https://mx.oceana.org/comunicados/tilapia-en-vez-de-bacalao/">Read More</a>
                         </p>
                     </div>
                     <div>
@@ -155,10 +154,10 @@
 
                 <div class="flexContainer">
                     <div>
-                        <h3 class="smTitle">A new global agreement promotes the protection of the seas</h3>
-                        <p class="smText">During the Christmas season, one out of three times when they sell us cod, in
-                            Mexico City, they give us another species... <a href="#">Read More</a>
-                        </p>
+                        <a class="noneStyle" target="_blank"
+                            href="https://mx.oceana.org/blog/acuerdo-mundial-para-la-biodiversidad/">
+                            <h3 class="smTitle">A new global agreement promotes the protection of the seas</h3>
+                        </a>
                     </div>
                     <div>
                         <img class="borderRadius" src="./resources/images/Ballenas_cambio_climatico-200x200.png"
@@ -198,7 +197,8 @@
                     <div class="col-md-6 col-sm-12 d-flex flex-column justify-content-start margin">
                         <div>
                             <h4 class="text-white titleVolunt2">Show your Support with a Donation</h4>
-                            <p class="text-white textVolunt2">Oceana needs your support to protect the oceans and marine life.</p>
+                            <p class="text-white textVolunt2">Oceana needs your support to protect the oceans and marine
+                                life.</p>
                         </div>
                         <div class="d-grid gap-2">
                             <button class="btn btn-outline-light mt-5" type="button">Donate Now</button>
@@ -227,10 +227,11 @@
                             <h4 class="text-white titleVolunt2">Find Oceana</h4>
                         </div>
                         <div>
-                            <a href="https://www.facebook.com/OceanaMexico/"><img class="img-fluid iconSize" src="./resources/images/download.png" alt="facebook icon"></a>
+                            <a href="https://www.facebook.com/OceanaMexico/"><img class="img-fluid iconSize"
+                                    src="./resources/images/download.png" alt="facebook icon"></a>
                             <a href="https://www.instagram.com/oceanamexico/"><img class="img-fluid iconSize"
-                                src="./resources/images/vector-del-icono-de-instagram-134391681.jpg"
-                                alt="Instagram Icon"></a>
+                                    src="./resources/images/vector-del-icono-de-instagram-134391681.jpg"
+                                    alt="Instagram Icon"></a>
                         </div>
                     </div>
                 </div>
@@ -239,16 +240,17 @@
                     <div class="col-md-6 col-sm-12 d-flex flex-column justify-content-start margin">
                         <div>
                             <h3 class="text-white titleVolunt2">Join Oceana</h3>
-                            <p class="text-white textVolunt2">Sign up today to receive weekly updates and action alerts from Oceana.</p>
+                            <p class="text-white textVolunt2">Sign up today to receive weekly updates and action alerts
+                                from Oceana.</p>
                         </div>
                         <div>
                             <label for="exampleInputEmail1" class="form-label"></label>
                             <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email"
                                 aria-describedby="emailHelp">
                         </div>
-                        <div >
+                        <div>
                             <button type="button" class="btn mt-4 btn-light">Join Us</button>
-                        </div>                
+                        </div>
                     </div>
                 </div>
 

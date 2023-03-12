@@ -1,12 +1,10 @@
-.gridImg {
-    height: 150vh;
-}
-
+// imagen de fondo
 .img {
     background: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/download.jpg)no-repeat center;
     background-size: cover;
 }
 
+// primera pagina
 .background {
     height: 50vh;
 }
@@ -21,6 +19,7 @@
     font-size: 2rem;
 }
 
+// grid
 .styleImg {
     background: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)), url(../../resources/images/photo_2022-12-20-17.59.55-200.jpeg) center no-repeat;
     background-size: cover;
