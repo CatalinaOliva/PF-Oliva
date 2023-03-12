@@ -1,0 +1,19 @@
+.backgroundHeight {
+    height: 70vh;
+    h1 {
+        font-family: $font-title;
+        font-size: 5rem;
+        color: $color-principal;
+        text-align: center;
+    }
+
+    p {
+        color: $color-principal;
+        font-size: 1rem;
+        font-family: $font-text;
+        text-align: center;
+    }
+}
+
+
+

@@ -204,6 +204,22 @@ html {
   color: gray;
 }
 
+.backgroundHeight {
+  height: 70vh;
+}
+.backgroundHeight h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 5rem;
+  color: #f3f4f4;
+  text-align: center;
+}
+.backgroundHeight p {
+  color: #f3f4f4;
+  font-size: 1rem;
+  font-family: "ABeeZee", sans-serif;
+  text-align: center;
+}
+
 .gridImg {
   height: 150vh;
 }
