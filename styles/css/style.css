@@ -86,8 +86,8 @@ html {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .noneStyle {
@@ -115,8 +115,8 @@ html {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
   align-items: center;
+  justify-content: space-evenly;
   padding: 5%;
 }
 .section4 .borderRadius {
@@ -133,8 +133,8 @@ html {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  align-content: center;
   justify-content: center;
+  align-content: center;
 }
 .section5 .positionContainer {
   position: relative;
@@ -143,8 +143,8 @@ html {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   align-content: center;
 }
 .section5 .positionContainer .imgContainer {
@@ -152,10 +152,9 @@ html {
   width: 90%;
   height: 100%;
   display: flex;
-  flex-flow: row wrap;
-  align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
 }
 .section5 .positionContainer .imgContainer img {
@@ -170,9 +169,9 @@ html {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 .section5 .positionContainer .textContainer h3 {
   text-align: center;
@@ -219,9 +218,9 @@ html {
   height: 50vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
   background-color: rgb(226, 226, 226);
 }
 .fondoAbout h2 {
@@ -249,8 +248,8 @@ html {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 .backgroundAbout h3 {
   font-family: "Playfair Display", serif;
@@ -278,15 +277,6 @@ html {
   height: 800px;
   margin-bottom: 0px;
 }
-.gridContainerAboutuno h4 {
-  font-family: "Playfair Display", serif;
-  font-size: 2.7rem;
-  color: #f3f4f4;
-  text-align: start;
-  margin-left: 8%;
-  margin-top: 5%;
-  margin-right: 8%;
-}
 .gridContainerAboutdos {
   grid-area: dos;
   width: 100%;
@@ -295,15 +285,6 @@ html {
   display: block;
   height: 800px;
   margin-bottom: 0px;
-}
-.gridContainerAboutdos h4 {
-  font-family: "Playfair Display", serif;
-  font-size: 2.7rem;
-  color: #f3f4f4;
-  text-align: start;
-  margin-left: 8%;
-  margin-top: 5%;
-  margin-right: 8%;
 }
 .gridContainerAbouttres {
   grid-area: tres;
@@ -314,15 +295,6 @@ html {
   height: 800px;
   margin-bottom: 0px;
 }
-.gridContainerAbouttres h4 {
-  font-family: "Playfair Display", serif;
-  font-size: 2.7rem;
-  color: #f3f4f4;
-  text-align: start;
-  margin-left: 8%;
-  margin-top: 5%;
-  margin-right: 8%;
-}
 .gridContainerAboutcuatro {
   grid-area: cuatro;
   width: 100%;
@@ -332,7 +304,8 @@ html {
   height: 800px;
   margin-bottom: 0px;
 }
-.gridContainerAboutcuatro h4 {
+
+.h4About {
   font-family: "Playfair Display", serif;
   font-size: 2.7rem;
   color: #f3f4f4;

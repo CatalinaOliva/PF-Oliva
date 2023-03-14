@@ -1,0 +1,7 @@
+@mixin displayFlex($disposicion: column, $ubicacion: nowrap, $align: center, $justify: center) {
+    display: flex;
+    flex-direction: $disposicion;
+    flex-wrap: $ubicacion;
+    align-items: $align;
+    justify-content: $justify;
+}

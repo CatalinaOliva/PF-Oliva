@@ -20,11 +20,7 @@
 // visión
 .fondoAbout {
     height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
+    @include displayFlex();
     background-color: rgb(226, 226, 226);
 
     h2 {
@@ -55,11 +51,7 @@
 // fondo negro
 .backgroundAbout {
     height: 50vh;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+    @include displayFlex();
 
     h3 {
         font-family: $font-title;
@@ -94,16 +86,6 @@
         display: block;
         height: 800px;
         margin-bottom: 0px;
-
-        h4 {
-            font-family: $font-title;
-            font-size: 2.7rem;
-            color: $color-principal;
-            text-align: start;
-            margin-left: 8%;
-            margin-top: 5%;
-            margin-right: 8%;
-        }
     }
 
     &dos {
@@ -114,16 +96,6 @@
         display: block;
         height: 800px;
         margin-bottom: 0px;
-
-        h4 {
-            font-family: $font-title;
-            font-size: 2.7rem;
-            color: $color-principal;
-            text-align: start;
-            margin-left: 8%;
-            margin-top: 5%;
-            margin-right: 8%;
-        }
     }
 
     &tres {
@@ -134,16 +106,6 @@
         display: block;
         height: 800px;
         margin-bottom: 0px;
-
-        h4 {
-            font-family: $font-title;
-            font-size: 2.7rem;
-            color: $color-principal;
-            text-align: start;
-            margin-left: 8%;
-            margin-top: 5%;
-            margin-right: 8%;
-        }
     }
 
 
@@ -155,17 +117,17 @@
         display: block;
         height: 800px;
         margin-bottom: 0px;
-
-        h4 {
-            font-family: $font-title;
-            font-size: 2.7rem;
-            color: $color-principal;
-            text-align: start;
-            margin-left: 8%;
-            margin-top: 5%;
-            margin-right: 8%;
-        }
     }
+}
+
+.h4About {
+    font-family: $font-title;
+    font-size: 2.7rem;
+    color: $color-principal;
+    text-align: start;
+    margin-left: 8%;
+    margin-top: 5%;
+    margin-right: 8%;
 }
 
 .circle {
