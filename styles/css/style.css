@@ -425,42 +425,54 @@ html {
 }
 
 .styleImg0 {
-  background: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)) url(../../../resources/images/download.jpg) no-repeat center;
-  background-size: auto cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/download.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: block;
 }
 
 .styleImg1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)) url(../../../resources/images/photo_2022-12-20-17.59.55-200.jpeg) center no-repeat;
-  background-size: auto cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/photo_2022-12-20-17.59.55-200.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: block;
 }
 
 .styleImg2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)) url(../../../resources/images/sri-lanka-sea-turtle-rescue-and-rehabilitation-main-new1-pyo0b7gtweofhe4ss8zghf8liq3gtnyqhf1uk3ypl2.jpg) center no-repeat;
-  background-size: auto cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/sri-lanka-sea-turtle-rescue-and-rehabilitation-main-new1-pyo0b7gtweofhe4ss8zghf8liq3gtnyqhf1uk3ypl2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: block;
 }
 
 .styleImg3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)) url(../../../resources/images/Tanzania-Zanzibar-Teaching-Assistant-main-1-pyo235fkto7naf92ee0slscgbcxdgetdlwpyur5kau.jpg) center no-repeat;
-  background-size: auto cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/Tanzania-Zanzibar-Teaching-Assistant-main-1-pyo235fkto7naf92ee0slscgbcxdgetdlwpyur5kau.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: block;
 }
 
 .styleImg4 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) url(../../../resources/images/product-5b573834dd3ab.[414].jpeg) center no-repeat;
-  background-size: auto cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/product-5b573834dd3ab.[414].jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: block;
 }
 
 .styleImg5 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) url(../../../resources/images/ecuador-conservation-product-61f40cd471430.[414].jpeg) center no-repeat;
-  background-size: auto cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/ecuador-conservation-product-61f40cd471430.[414].jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: block;
 }
 
-.altura {
+.altura1 {
   height: 465px;
 }
 

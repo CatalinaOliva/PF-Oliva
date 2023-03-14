@@ -23,24 +23,16 @@
 // prueba 
 @each $nombre, $estilos in $images {
     .style#{$nombre} {
-        background: $estilos;
-        background-size: auto cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), $estilos;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         display: block;
     }
 }
 
-.altura {
-    height: 465px;
-}
-
-.altura2 {
-    height: 200px;
-}
-
-.altura3 {
-    height: 285px;
-}
-
-.altura4 {
-    height: 300px;
+@each $clase, $pixeles in $alturas {
+    .altura#{$clase} {
+        height: $pixeles;
+    } 
 }
