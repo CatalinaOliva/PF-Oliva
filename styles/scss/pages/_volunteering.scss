@@ -19,8 +19,6 @@
     font-size: 2rem;
 }
 
-
-// prueba 
 @each $nombre, $estilos in $images {
     .style#{$nombre} {
         background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), $estilos;
