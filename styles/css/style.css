@@ -382,17 +382,7 @@ html {
   height: 50vh;
 }
 
-.titleVolunt {
-  font-family: "Playfair Display", serif;
-  font-size: 5rem;
-}
-
-.textVolunt {
-  font-family: "ABeeZee", sans-serif;
-  font-size: 2rem;
-}
-
-.titleVolunt2 {
+.titleVolunt2, .titleMarine2 {
   font-family: "Playfair Display", serif;
   font-size: 2rem;
 }
@@ -445,6 +435,70 @@ html {
   display: block;
 }
 
+.styleImg6 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/cephalopods.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.styleImg7 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/coral.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.styleImg8 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/marinemammals.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.styleImg9 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/ecosystems.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.styleImg10 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/fishes_alt.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.styleImg11 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/seaturtlesandreptiles.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.styleImg12 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/seabirds.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.styleImg13 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/sharks_0.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
 .altura1 {
   height: 465px;
 }
@@ -459,6 +513,23 @@ html {
 
 .altura4 {
   height: 300px;
+}
+
+.marine-life-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: none;
+  justify-content: center;
+  align-content: center;
+}
+
+.titleMarine2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 /* footer */
@@ -506,7 +577,7 @@ html {
   .textVolunt {
     font-size: 1.6rem;
   }
-  .titleVolunt2 {
+  .titleVolunt2, .titleMarine2 {
     font-size: 1.5rem;
   }
   .textVolunt2 {

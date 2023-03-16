@@ -1,0 +1,11 @@
+// imagenes flex
+.marine-life-flex {
+    @include displayFlex($disposicion: row, $ubicacion: wrap, $align: none);
+    align-content: center;
+}
+
+.titleMarine2 {
+    @extend .titleVolunt2;
+    @include displayFlex ($ubicacion:wrap);
+}
+
