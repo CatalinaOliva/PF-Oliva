@@ -1,0 +1,150 @@
+@import "../utils/mixins";
+
+// media queries
+
+@include lg {
+
+    // home
+    .mask {
+        h1 {
+            font-size: 3rem;
+        }
+    }
+
+    .mask {
+        p {
+            font-size: 0.75rem;
+        }
+    }
+
+    .textContainer {
+        h2 {
+            font-size: 2rem;
+        }
+    }
+
+    .lgTitle {
+        font-size: 2.4rem;
+    }
+
+    .section5 {
+        .positionContainer {
+            .textContainer {
+                h3 {
+                    font-size: 2.5rem;
+                }
+            }
+        }
+    }
+
+
+    .titleFooter {
+        font-size: 1.7rem;
+    }
+
+    .textFooter {
+        font-size: 0.9rem;
+    }
+
+    .iconSize {
+        width: 2rem;
+    }
+
+    // about us
+
+}
+
+@include md {
+
+    .gridContainer {
+        grid-template-rows: 1fr 0.33fr 1fr 1fr 0.4fr;
+    }
+
+    .section4 {
+        .borderRadius {
+            display: none;
+        }
+    }
+
+    .lgTitle {
+        font-size: 2rem;
+    }
+
+    .textContainer {
+        h3 {
+            font-size: 1.5rem;
+        }
+    }
+
+    .section5 {
+        .positionContainer {
+            .textContainer {
+                h3 {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+    
+}
+
+@include s {
+    .mask {
+        h1 {
+            font-size: 2.75rem;
+        }
+    }
+
+    .gridContainer {
+        grid-template-areas:
+            "section1"
+            "section2"
+            "section2"
+            "section3"
+            "section3"
+            "section4"
+            "section4"
+            "section5";
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .margin {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .padding {
+        padding-top: 0;
+    }
+
+}
+
+@include xs {
+    .gridContainer {
+        grid-template-rows: 1fr 1fr 0.5fr 1fr 0.5fr 1fr 1fr 1fr;
+    }
+}
+
+@include xxs {
+    .gridContainer {
+        grid-template-rows: 1fr 1fr 0.5fr 1fr 0.5fr 1fr 0.8fr 1fr;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .styleImg .styleImg2 .styleImg3 .styleImg4 .styleImg5 {
+        padding-top: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .textVolunt {
+        font-size: 1.2rem;
+    }
+}

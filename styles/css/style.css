@@ -46,7 +46,7 @@ html {
   display: grid;
   grid-template-areas: "section1  section2" "section3  section2" "section3  section4" "section5  section4" "section5  section4";
   grid-template-columns: 50% 50%;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 0.33fr 1fr 1fr 0.6fr;
 }
 
 /* section 1 */
@@ -537,13 +537,14 @@ html {
   width: 2.5rem;
 }
 
-.textVolunt2 {
-  font-family: "ABeeZee", sans-serif;
-  font-size: 1rem;
+.titleFooter {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
 }
 
-.margin {
-  margin-top: 0;
+.textFooter {
+  font-family: "ABeeZee", sans-serif;
+  font-size: 1rem;
 }
 
 .padding {
@@ -557,12 +558,30 @@ html {
   .mask p {
     font-size: 0.75rem;
   }
-  .textContainer h3 {
+  .textContainer h2 {
     font-size: 2rem;
+  }
+  .lgTitle {
+    font-size: 2.4rem;
+  }
+  .section5 .positionContainer .textContainer h3 {
+    font-size: 2.5rem;
+  }
+  .titleFooter {
+    font-size: 1.7rem;
+  }
+  .textFooter {
+    font-size: 0.9rem;
+  }
+  .iconSize {
+    width: 2rem;
   }
 }
 @media screen and (max-width: 768px) {
-  .borderRadius {
+  .gridContainer {
+    grid-template-rows: 1fr 0.33fr 1fr 1fr 0.4fr;
+  }
+  .section4 .borderRadius {
     display: none;
   }
   .lgTitle {
@@ -571,17 +590,8 @@ html {
   .textContainer h3 {
     font-size: 1.5rem;
   }
-  .titleVolunt {
-    font-size: 4rem;
-  }
-  .textVolunt {
-    font-size: 1.6rem;
-  }
-  .titleVolunt2, .titleMarine2 {
-    font-size: 1.5rem;
-  }
-  .textVolunt2 {
-    font-size: 0.8rem;
+  .section5 .positionContainer .textContainer h3 {
+    font-size: 2rem;
   }
 }
 @media screen and (max-width: 576px) {
@@ -592,12 +602,6 @@ html {
     grid-template-areas: "section1" "section2" "section2" "section3" "section3" "section4" "section4" "section5";
     grid-template-columns: 100%;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  }
-  .titleVolunt {
-    font-size: 3rem;
-  }
-  .textVolunt {
-    font-size: 1.3rem;
   }
   .margin {
     margin-top: 50px;
@@ -612,11 +616,18 @@ html {
   }
 }
 @media screen and (max-width: 425px) {
+  .gridContainer {
+    grid-template-rows: 1fr 1fr 0.5fr 1fr 0.5fr 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 375px) {
+  .gridContainer {
+    grid-template-rows: 1fr 1fr 0.5fr 1fr 0.5fr 1fr 0.8fr 1fr;
+  }
+}
+@media screen and (max-width: 425px) {
   .styleImg .styleImg2 .styleImg3 .styleImg4 .styleImg5 {
     padding-top: 1rem;
-  }
-  .iconSize {
-    width: 2rem;
   }
 }
 @media screen and (max-width: 375px) {
