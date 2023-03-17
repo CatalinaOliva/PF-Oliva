@@ -551,6 +551,10 @@ html {
   padding-top: 50px;
 }
 
+.navbar2.scrolled {
+  background-color: #415a77;
+}
+
 @media screen and (max-width: 1024px) {
   .mask h1 {
     font-size: 3rem;
