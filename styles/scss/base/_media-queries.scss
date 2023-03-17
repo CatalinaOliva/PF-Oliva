@@ -51,11 +51,35 @@
     }
 
     // about us
+    .backgroundHeight {
+        h1 {
+            font-size: 4rem;
+        }
+    }
+
+    .fondoAbout {
+        h2 {
+            font-size: 3.5rem;
+        }
+    }
+
+    .h4About {
+        font-size: 2rem;
+    }
+
+    .textGrid {
+        font-size: 1rem;
+    }
+
+    .circle {
+        font-size: 3rem;
+    }
 
 }
 
 @include md {
 
+    // home
     .gridContainer {
         grid-template-rows: 1fr 0.33fr 1fr 1fr 0.4fr;
     }
@@ -85,10 +109,78 @@
             }
         }
     }
-    
+
+    // about us
+    .fondoAbout {
+        h2 {
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 1.3rem;
+        }
+    }
+
+    .textAbout {
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    .gridContainerAbout {
+        grid-template-rows: 0.7fr 0.7fr;
+
+        &uno, &dos, &tres, &cuatro{
+            height: 500px;
+        }
+    }
+
+    .backgroundAbout {
+        h3 {
+            font-size: 2.7rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    .circle {
+        font-size: 2.7rem;
+    }
+
+    .solutionAbout {
+        h5 {
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    .textCardAbout {
+        display: none;
+    }
+
+    .heightAbout {
+        height: 60vh;
+
+        .imgCard {
+            img {
+                width: 80%;
+            }
+        }
+    }
+
+    .titleCardAbout {
+        font-size: 1.3rem;
+    }
 }
 
 @include s {
+
+    // home
     .mask {
         h1 {
             font-size: 2.75rem;
@@ -122,17 +214,99 @@
         padding-top: 0;
     }
 
+    // about us
+    .gridContainerAbout {
+        grid-template-rows: 0.6fr 0.6fr;
+
+        &uno, &dos, &tres, &cuatro{
+            height: 400px;
+        }
+    }
+
+    .circle {
+        font-size: 1.8rem;
+    }
+
+    .h4About {
+        font-size: 2rem;
+    }
+
+    .textGrid {
+        display: none;
+    }
+
+    .heightAbout {
+        height: 155vh;
+
+        .imgCard {
+            img {
+                width: 190px;
+            }
+        }
+    }
+
 }
 
 @include xs {
+
+    // home
     .gridContainer {
         grid-template-rows: 1fr 1fr 0.5fr 1fr 0.5fr 1fr 1fr 1fr;
+    }
+
+    // about ut
+    .gridContainerAbout {
+        grid-template-areas:
+            "uno"
+            "dos"
+            "tres"
+            "cuatro";
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+
+        &uno, &dos, &tres, &cuatro{
+            height: 500px;
+        }
+    }
+
+    .circle {
+        font-size: 2.5rem;
+    }
+
+    .h4About {
+        font-size: 2.5rem;
     }
 }
 
 @include xxs {
+    // home
     .gridContainer {
         grid-template-rows: 1fr 1fr 0.5fr 1fr 0.5fr 1fr 0.8fr 1fr;
+    }
+
+    // about us 
+    .fondoAbout {
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    .h4About {
+        font-size: 2rem;
+    }
+
+    .heightAbout {
+        height: 130vh;
+
+        .imgCard {
+            img {
+                width: 140px;
+            }
+        }
     }
 }
 
@@ -141,10 +315,4 @@
         padding-top: 1rem;
     }
 
-}
-
-@media screen and (max-width: 375px) {
-    .textVolunt {
-        font-size: 1.2rem;
-    }
 }

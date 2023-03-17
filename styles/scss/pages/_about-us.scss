@@ -182,6 +182,12 @@
 .heightAbout {
     height: 70vh;
     margin-bottom: 3%;
+
+    .imgCard {
+        img {
+            width: 220px;
+        }
+    }
 }
 
 .titleCardAbout {

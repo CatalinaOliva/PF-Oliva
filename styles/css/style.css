@@ -364,6 +364,9 @@ html {
   height: 70vh;
   margin-bottom: 3%;
 }
+.heightAbout .imgCard img {
+  width: 220px;
+}
 
 .titleCardAbout {
   margin-top: 10px;
@@ -580,6 +583,21 @@ html {
   .iconSize {
     width: 2rem;
   }
+  .backgroundHeight h1 {
+    font-size: 4rem;
+  }
+  .fondoAbout h2 {
+    font-size: 3.5rem;
+  }
+  .h4About {
+    font-size: 2rem;
+  }
+  .textGrid {
+    font-size: 1rem;
+  }
+  .circle {
+    font-size: 3rem;
+  }
 }
 @media screen and (max-width: 768px) {
   .gridContainer {
@@ -596,6 +614,48 @@ html {
   }
   .section5 .positionContainer .textContainer h3 {
     font-size: 2rem;
+  }
+  .fondoAbout h2 {
+    font-size: 3rem;
+  }
+  .fondoAbout p {
+    font-size: 1.3rem;
+  }
+  .textAbout p {
+    font-size: 1rem;
+  }
+  .gridContainerAbout {
+    grid-template-rows: 0.7fr 0.7fr;
+  }
+  .gridContainerAboutuno, .gridContainerAboutdos, .gridContainerAbouttres, .gridContainerAboutcuatro {
+    height: 500px;
+  }
+  .backgroundAbout h3 {
+    font-size: 2.7rem;
+  }
+  .backgroundAbout p {
+    font-size: 1rem;
+  }
+  .circle {
+    font-size: 2.7rem;
+  }
+  .solutionAbout h5 {
+    font-size: 2.5rem;
+  }
+  .solutionAbout p {
+    font-size: 1rem;
+  }
+  .textCardAbout {
+    display: none;
+  }
+  .heightAbout {
+    height: 60vh;
+  }
+  .heightAbout .imgCard img {
+    width: 80%;
+  }
+  .titleCardAbout {
+    font-size: 1.3rem;
   }
 }
 @media screen and (max-width: 576px) {
@@ -618,25 +678,70 @@ html {
   .padding {
     padding-top: 0;
   }
+  .gridContainerAbout {
+    grid-template-rows: 0.6fr 0.6fr;
+  }
+  .gridContainerAboutuno, .gridContainerAboutdos, .gridContainerAbouttres, .gridContainerAboutcuatro {
+    height: 400px;
+  }
+  .circle {
+    font-size: 1.8rem;
+  }
+  .h4About {
+    font-size: 2rem;
+  }
+  .textGrid {
+    display: none;
+  }
+  .heightAbout {
+    height: 155vh;
+  }
+  .heightAbout .imgCard img {
+    width: 190px;
+  }
 }
 @media screen and (max-width: 425px) {
   .gridContainer {
     grid-template-rows: 1fr 1fr 0.5fr 1fr 0.5fr 1fr 1fr 1fr;
+  }
+  .gridContainerAbout {
+    grid-template-areas: "uno" "dos" "tres" "cuatro";
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  .gridContainerAboutuno, .gridContainerAboutdos, .gridContainerAbouttres, .gridContainerAboutcuatro {
+    height: 500px;
+  }
+  .circle {
+    font-size: 2.5rem;
+  }
+  .h4About {
+    font-size: 2.5rem;
   }
 }
 @media screen and (max-width: 375px) {
   .gridContainer {
     grid-template-rows: 1fr 1fr 0.5fr 1fr 0.5fr 1fr 0.8fr 1fr;
   }
+  .fondoAbout h2 {
+    font-size: 2.5rem;
+  }
+  .fondoAbout p {
+    font-size: 1rem;
+  }
+  .h4About {
+    font-size: 2rem;
+  }
+  .heightAbout {
+    height: 130vh;
+  }
+  .heightAbout .imgCard img {
+    width: 140px;
+  }
 }
 @media screen and (max-width: 425px) {
   .styleImg .styleImg2 .styleImg3 .styleImg4 .styleImg5 {
     padding-top: 1rem;
-  }
-}
-@media screen and (max-width: 375px) {
-  .textVolunt {
-    font-size: 1.2rem;
   }
 }
 
