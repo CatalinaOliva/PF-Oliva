@@ -184,6 +184,12 @@
     .titleVolunt2 {
         font-size: 1.7rem;
     }
+
+    // take action
+    .textTake {
+        font-size: 1rem;
+    }
+
 }
 
 @include s {
@@ -316,6 +322,15 @@
         grid-template-columns: 100%;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
+
+    // take action
+    .textTake {
+        display: none;
+    }
+
+    .titleTake {
+        font-size: 1.5rem;
+    }
 }
 
 @include xxs {
@@ -348,6 +363,11 @@
                 width: 140px;
             }
         }
+    }
+
+    // take action
+    .titleTake {
+        font-size: 1.3rem;
     }
 }
 

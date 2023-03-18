@@ -1,0 +1,8 @@
+.textTake {
+    font-family: $font-text;
+    font-size: 1.2rem;
+}
+
+.titleTake {
+    @extend .titleVolunt2;
+}

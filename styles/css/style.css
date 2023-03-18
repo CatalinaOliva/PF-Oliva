@@ -385,7 +385,7 @@ html {
   height: 50vh;
 }
 
-.titleVolunt2, .titleMarine2 {
+.titleVolunt2, .titleTake, .titleMarine2 {
   font-family: "Playfair Display", serif;
   font-size: 2rem;
 }
@@ -502,6 +502,54 @@ html {
   display: block;
 }
 
+.styleImg14 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/fondotakeaction.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.styleImg15 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/right_whale.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.styleImg16 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/turtlee.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.styleImg17 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/Bike_AmazonHQ.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.styleImg18 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/shutterstock_1430249291.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.styleImg19 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/bp_deepwater_horizon_disaster_3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
 .altura1 {
   height: 465px;
 }
@@ -555,6 +603,11 @@ html {
 }
 .gridContainerMarineImg8 {
   grid-area: img8;
+}
+
+.textTake {
+  font-family: "ABeeZee", sans-serif;
+  font-size: 1.2rem;
 }
 
 /* footer */
@@ -679,8 +732,11 @@ html {
   .titleCardAbout {
     font-size: 1.3rem;
   }
-  .titleVolunt2, .titleMarine2 {
+  .titleVolunt2, .titleMarine2, .titleTake {
     font-size: 1.7rem;
+  }
+  .textTake {
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 576px) {
@@ -727,7 +783,7 @@ html {
   .fondoAbout .textVolunt {
     font-size: 1rem;
   }
-  .titleVolunt2, .titleMarine2 {
+  .titleVolunt2, .titleMarine2, .titleTake {
     padding-top: 1.3rem;
     padding-left: 1rem;
   }
@@ -755,6 +811,12 @@ html {
     grid-template-columns: 100%;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
+  .textTake {
+    display: none;
+  }
+  .titleTake {
+    font-size: 1.5rem;
+  }
 }
 @media screen and (max-width: 375px) {
   .gridContainer {
@@ -774,6 +836,9 @@ html {
   }
   .heightAbout .imgCard img {
     width: 140px;
+  }
+  .titleTake {
+    font-size: 1.3rem;
   }
 }
 
