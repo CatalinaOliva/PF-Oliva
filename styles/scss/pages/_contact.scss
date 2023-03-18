@@ -1,0 +1,29 @@
+.h1Contact {
+    h1 {
+        font-family: $font-title;
+        font-size: 4rem;
+        color: $color-secondary;
+    }
+}
+
+.textContact {
+    
+    h2 {
+        font-family: $font-title;
+        font-size: 1.8rem;
+        color: $color-secondary;
+    }
+
+    h3 {
+        color: $color-secondary;
+        font-size: 1.5rem;
+        font-family: $font-title;
+    }
+
+    p {
+        font-family: $font-text;
+        font-size: 1.2rem;
+        color: $color-secondary;
+        margin-bottom: 0;
+    }
+}

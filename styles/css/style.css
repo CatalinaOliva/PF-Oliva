@@ -610,6 +610,29 @@ html {
   font-size: 1.2rem;
 }
 
+.h1Contact h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
+  color: #0d1b2a;
+}
+
+.textContact h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.8rem;
+  color: #0d1b2a;
+}
+.textContact h3 {
+  color: #0d1b2a;
+  font-size: 1.5rem;
+  font-family: "Playfair Display", serif;
+}
+.textContact p {
+  font-family: "ABeeZee", sans-serif;
+  font-size: 1.2rem;
+  color: #0d1b2a;
+  margin-bottom: 0;
+}
+
 /* footer */
 .iconSize {
   width: 2.5rem;
@@ -738,6 +761,15 @@ html {
   .textTake {
     font-size: 1rem;
   }
+  .h1Contact h1 {
+    font-size: 3rem;
+  }
+  .textContact h2 {
+    font-size: 1.5rem;
+  }
+  .textContact p {
+    font-size: 1rem;
+  }
 }
 @media screen and (max-width: 576px) {
   .mask h1 {
@@ -839,6 +871,15 @@ html {
   }
   .titleTake {
     font-size: 1.3rem;
+  }
+  .h1Contact h1 {
+    font-size: 2.4rem;
+  }
+  .textContact h2 {
+    font-size: 1.3rem;
+  }
+  .textContact p {
+    font-size: 1rem;
   }
 }
 

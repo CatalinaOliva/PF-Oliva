@@ -190,6 +190,22 @@
         font-size: 1rem;
     }
 
+    // contact
+    .h1Contact {
+        h1 {
+            font-size: 3rem;
+        }
+    }
+
+    .textContact {
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
 }
 
 @include s {
@@ -368,6 +384,23 @@
     // take action
     .titleTake {
         font-size: 1.3rem;
+    }
+
+    // contact {
+    .h1Contact {
+        h1 {
+            font-size: 2.4rem;
+        }
+    }
+
+    .textContact {
+        h2 {
+            font-size: 1.3rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
     }
 }
 
