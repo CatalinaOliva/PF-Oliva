@@ -301,6 +301,21 @@
     .h4About {
         font-size: 2.5rem;
     }
+
+    // marine life
+    .gridContainerMarine {
+        grid-template-areas: 
+        "img1"
+        "img2"
+        "img3"
+        "img4"
+        "img5"
+        "img6"
+        "img7"
+        "img8";
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
 }
 
 @include xxs {
@@ -336,9 +351,3 @@
     }
 }
 
-@media screen and (max-width: 425px) {
-    .styleImg .styleImg2 .styleImg3 .styleImg4 .styleImg5 {
-        padding-top: 1rem;
-    }
-
-}

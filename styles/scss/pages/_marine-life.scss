@@ -1,11 +1,47 @@
-// imagenes flex
-.marine-life-flex {
-    @include displayFlex($disposicion: row, $ubicacion: wrap, $align: none);
-    align-content: center;
-}
-
 .titleMarine2 {
     @extend .titleVolunt2;
     @include displayFlex ($ubicacion:wrap);
 }
 
+.gridContainerMarine {
+    display: grid;
+    grid-template-areas: 
+    "img1 img2"
+    "img3 img4"
+    "img5 img6"
+    "img7 img8";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+    &Img1 {
+        grid-area: img1;
+    }
+
+    &Img2 {
+        grid-area: img2;
+    }
+
+    &Img3 {
+        grid-area: img3;
+    }
+
+    &Img4 {
+        grid-area: img4;
+    }
+
+    &Img5 {
+        grid-area: img5;
+    }
+
+    &Img6 {
+        grid-area: img6;
+    }
+
+    &Img7 {
+        grid-area: img7;
+    }
+
+    &Img8 {
+        grid-area: img8;
+    }
+}
