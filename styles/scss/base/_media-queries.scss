@@ -130,7 +130,10 @@
     .gridContainerAbout {
         grid-template-rows: 0.7fr 0.7fr;
 
-        &uno, &dos, &tres, &cuatro{
+        &uno,
+        &dos,
+        &tres,
+        &cuatro {
             height: 500px;
         }
     }
@@ -176,6 +179,11 @@
     .titleCardAbout {
         font-size: 1.3rem;
     }
+
+    // volunteering
+    .titleVolunt2 {
+        font-size: 1.7rem;
+    }
 }
 
 @include s {
@@ -218,7 +226,10 @@
     .gridContainerAbout {
         grid-template-rows: 0.6fr 0.6fr;
 
-        &uno, &dos, &tres, &cuatro{
+        &uno,
+        &dos,
+        &tres,
+        &cuatro {
             height: 400px;
         }
     }
@@ -245,6 +256,17 @@
         }
     }
 
+    // volunteering
+    .fondoAbout {
+        .textVolunt {
+            font-size: 1rem;
+        }
+    }
+
+    .titleVolunt2 {
+        padding-top: 1.3rem;
+        padding-left: 1rem;
+    }
 }
 
 @include xs {
@@ -264,7 +286,10 @@
         grid-template-columns: 100%;
         grid-template-rows: 1fr 1fr 1fr 1fr;
 
-        &uno, &dos, &tres, &cuatro{
+        &uno,
+        &dos,
+        &tres,
+        &cuatro {
             height: 500px;
         }
     }
@@ -279,6 +304,7 @@
 }
 
 @include xxs {
+
     // home
     .gridContainer {
         grid-template-rows: 1fr 1fr 0.5fr 1fr 0.5fr 1fr 0.8fr 1fr;

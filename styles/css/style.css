@@ -423,7 +423,7 @@ html {
 }
 
 .styleImg4 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/product-5b573834dd3ab.[414].jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/01-solitary-lions-nationalgeographic_2679408.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -431,7 +431,7 @@ html {
 }
 
 .styleImg5 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/ecuador-conservation-product-61f40cd471430.[414].jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/playa.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -657,6 +657,9 @@ html {
   .titleCardAbout {
     font-size: 1.3rem;
   }
+  .titleVolunt2, .titleMarine2 {
+    font-size: 1.7rem;
+  }
 }
 @media screen and (max-width: 576px) {
   .mask h1 {
@@ -698,6 +701,13 @@ html {
   }
   .heightAbout .imgCard img {
     width: 190px;
+  }
+  .fondoAbout .textVolunt {
+    font-size: 1rem;
+  }
+  .titleVolunt2, .titleMarine2 {
+    padding-top: 1.3rem;
+    padding-left: 1rem;
   }
 }
 @media screen and (max-width: 425px) {
