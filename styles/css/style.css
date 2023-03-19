@@ -616,6 +616,11 @@ html {
   color: #0d1b2a;
 }
 
+.prueba {
+  border-left: 2px;
+  border-color: black;
+}
+
 .textContact h2 {
   font-family: "Playfair Display", serif;
   font-size: 1.8rem;
@@ -770,6 +775,12 @@ html {
   .textContact p {
     font-size: 1rem;
   }
+  .menuContact {
+    display: none;
+  }
+  .contentContact {
+    border-left: none !important;
+  }
 }
 @media screen and (max-width: 576px) {
   .mask h1 {
@@ -779,6 +790,9 @@ html {
     grid-template-areas: "section1" "section2" "section2" "section3" "section3" "section4" "section4" "section5";
     grid-template-columns: 100%;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .contentIndex {
+    border: none !important;
   }
   .margin {
     margin-top: 50px;
