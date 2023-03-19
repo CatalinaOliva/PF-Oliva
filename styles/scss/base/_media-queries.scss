@@ -206,6 +206,7 @@
             font-size: 1rem;
         }
     }
+
     .menuContact {
         display: none;
     }
@@ -337,15 +338,15 @@
 
     // marine life
     .gridContainerMarine {
-        grid-template-areas: 
-        "img1"
-        "img2"
-        "img3"
-        "img4"
-        "img5"
-        "img6"
-        "img7"
-        "img8";
+        grid-template-areas:
+            "img1"
+            "img2"
+            "img3"
+            "img4"
+            "img5"
+            "img6"
+            "img7"
+            "img8";
         grid-template-columns: 100%;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
@@ -414,4 +415,3 @@
         }
     }
 }
-

@@ -11,28 +11,38 @@
     @media screen and (max-width: 1024px) {
         @content;
     }
-};
+}
+
+;
 
 @mixin md {
     @media screen and (max-width: 768px) {
         @content;
     }
-};
+}
+
+;
 
 @mixin s {
     @media screen and (max-width: 576px) {
         @content;
     }
-};
+}
+
+;
 
 @mixin xs {
     @media screen and (max-width: 425px) {
         @content;
     }
-};
+}
+
+;
 
 @mixin xxs {
     @media screen and (max-width: 375px) {
         @content;
     }
-};
+}
+
+;

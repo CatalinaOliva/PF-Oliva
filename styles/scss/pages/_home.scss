@@ -74,7 +74,7 @@
     position: absolute;
     width: 100%;
     padding: 6%;
-    @include displayFlex($justify:flex-start, $align:flex-start);
+    @include displayFlex($justify: flex-start, $align: flex-start);
 }
 
 .noneStyle {
@@ -130,6 +130,7 @@
             width: 90%;
             height: 100%;
             @include displayFlex($disposicion: row, $ubicacion: wrap, $justify: space-between);
+
             img {
                 border-radius: 100%;
                 width: 100%;
@@ -141,9 +142,9 @@
         .textContainer {
             position: absolute;
             width: 45%;
-            @include displayFlex($disposicion:row, $ubicacion: wrap);
+            @include displayFlex($disposicion: row, $ubicacion: wrap);
             align-content: center;
-        
+
             h3 {
                 text-align: center;
                 font-size: 3rem;
@@ -151,7 +152,7 @@
                 font-family: $font-title;
             }
         }
-    } 
+    }
 }
 
 

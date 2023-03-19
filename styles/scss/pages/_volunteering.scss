@@ -9,7 +9,8 @@
     font-size: 2rem;
 }
 
-@each $nombre, $estilos in $images {
+@each $nombre,
+$estilos in $images {
     .style#{$nombre} {
         background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), $estilos;
         background-position: center;
@@ -19,8 +20,9 @@
     }
 }
 
-@each $clase, $pixeles in $alturas {
+@each $clase,
+$pixeles in $alturas {
     .altura#{$clase} {
         height: $pixeles;
-    } 
+    }
 }

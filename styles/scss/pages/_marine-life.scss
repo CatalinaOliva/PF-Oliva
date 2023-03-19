@@ -1,18 +1,18 @@
 .titleMarine2 {
     @extend .titleVolunt2;
-    @include displayFlex ($ubicacion:wrap);
+    @include displayFlex ($ubicacion: wrap);
 }
 
 .gridContainerMarine {
     display: grid;
-    grid-template-areas: 
-    "img1 img2"
-    "img3 img4"
-    "img5 img6"
-    "img7 img8";
+    grid-template-areas:
+        "img1 img2"
+        "img3 img4"
+        "img5 img6"
+        "img7 img8";
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    
+
     &Img1 {
         grid-area: img1;
     }
