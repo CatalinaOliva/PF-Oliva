@@ -673,7 +673,7 @@ html {
 }
 
 .navbar2.scrolled {
-  background-color: #415a77;
+  background-color: rgba(65, 90, 119, 0.4);
 }
 
 .urlButton {
