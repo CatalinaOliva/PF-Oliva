@@ -1,4 +1,5 @@
 @import "../utils/mixins";
+@import "../components/buttons";
 
 // media queries
 
@@ -47,7 +48,7 @@
     }
 
     .iconSize {
-        width: 2rem;
+        font-size: 2rem;
     }
 
     // about us

@@ -11,6 +11,21 @@ body {
 
 html {
   font-size: 14px;
+  scroll-behavior: smooth;
+}
+
+.backTop {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 50px;
+  right: 50px;
+  z-index: 55;
+}
+.backTop i {
+  font-size: 60px;
+  cursor: pointer;
+  z-index: 55;
 }
 
 /* video de fondo pag uno */
@@ -640,7 +655,7 @@ html {
 
 /* footer */
 .iconSize {
-  width: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .titleFooter {
@@ -659,6 +674,28 @@ html {
 
 .navbar2.scrolled {
   background-color: #415a77;
+}
+
+.urlButton {
+  color: white;
+}
+
+.urlButton:hover {
+  color: black;
+}
+
+.backTop {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 50px;
+  right: 50px;
+  z-index: 55;
+}
+.backTop i {
+  font-size: 60px;
+  cursor: pointer;
+  z-index: 55;
 }
 
 @media screen and (max-width: 1024px) {
@@ -684,7 +721,7 @@ html {
     font-size: 0.9rem;
   }
   .iconSize {
-    width: 2rem;
+    font-size: 2rem;
   }
   .backgroundHeight h1 {
     font-size: 4rem;
