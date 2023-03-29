@@ -1,3 +1,5 @@
+@import "../utils/variables";
+
 /* video de fondo pag uno */
 .backgroundContainer {
     height: 100vh;
@@ -48,7 +50,27 @@
     grid-area: section1;
     @include displayFlex($align: flex-start);
     padding: 8%;
+
+    h2 {
+        font-family: $font-title;
+        font-size: 1.8rem;
+        color: #0d1b2a;
+        font-weight: bold;
+    }
+
+    p {
+        font-family: $font-text;
+        font-size: 1.17rem;
+        margin-bottom: 0;
+    }
+
+    .form-control {
+        font-size: 1.2rem;
+        width: 27vw;
+    }
 }
+
+
 
 /* section 2 */
 .section2 {
@@ -67,7 +89,16 @@
         width: 100%;
         padding: 3%;
         height: 100%;
+        object-fit: cover;
     }
+}
+
+.linkButtonHome {
+    color: $color-principal;
+}
+
+.linkButtonHome:hover {
+    color: white;
 }
 
 .text-grid {
@@ -87,12 +118,6 @@
 .section3 {
     grid-area: section3;
     position: relative;
-
-    img {
-        width: 100%;
-        padding: 3%;
-        height: 100%;
-    }
 }
 
 /* section 4 */
@@ -163,7 +188,7 @@
 }
 
 .smTitle {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-family: $font-text;
     color: #0d1b2a;
 }

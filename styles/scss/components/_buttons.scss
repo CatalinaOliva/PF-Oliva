@@ -1,14 +1,20 @@
-.backTop {
-    position: fixed;
-    width: 50px;
-    height: 50px;
-    bottom: 50px;
-    right: 50px;
-    z-index: 55;
+@import "../utils/variables";
 
-    i {
-        font-size: 60px;
-        cursor: pointer;
-        z-index: 55;
+// home
+ .btn-info {
+    border-radius: 0;
+    --bs-btn-bg: #0d1b2a;
+    --bs-btn-border-color: none;
+    --bs-btn-hover-bg: white;
+
+    a:hover {
+        color: #0d1b2a;
     }
-}
+ }
+
+ .btn-primary {
+    border-radius: 0;
+    --bs-btn-bg: #415a77;
+    --bs-btn-border-color: none;
+    --bs-btn-hover-bg: #0d1b2a;
+ }

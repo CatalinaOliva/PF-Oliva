@@ -82,7 +82,30 @@
 
     // home
     .gridContainer {
-        grid-template-rows: 1fr 0.33fr 1fr 1fr 0.4fr;
+        grid-template-rows: 1fr 0.33fr 1fr 1fr 0.1fr;
+    }
+
+    .section1 {
+        h2 {
+            font-size: 1.3rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+        .form-control {
+            font-size: 0.9rem;
+            width: 30vw;
+        }
+    }
+
+    .btn-primary {
+        --bs-btn-font-size: 0.9rem;
+    }
+
+    .btn-info {
+        --bs-btn-font-size: 1rem;
     }
 
     .section4 {
@@ -95,6 +118,10 @@
         font-size: 2rem;
     }
 
+    .smTitle {
+        font-size: 1.5rem;
+    }
+
     .textContainer {
         h3 {
             font-size: 1.5rem;
@@ -105,7 +132,7 @@
         .positionContainer {
             .textContainer {
                 h3 {
-                    font-size: 2rem;
+                    font-size: 1.7rem;
                 }
             }
         }
@@ -237,7 +264,37 @@
             "section4"
             "section5";
         grid-template-columns: 100%;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 0.9fr 1.1fr;
+    }
+
+    .smTitle {
+        font-size: 1.7rem;
+    }
+
+    .lgTitle {
+        font-size: 2.5rem;
+    }
+
+    .section1 {
+        h2 {
+            font-size: 1.9rem;
+        }
+
+        p {
+            font-size: 1.3rem;
+        }
+
+        .form-control {
+            width: 58vw;
+        }
+    }
+
+    .btn-primary {
+        font-size: 1.1rem;
+    }
+
+    .btn-info {
+        font-size: 1.3rem;
     }
 
     .contentIndex {
@@ -255,6 +312,16 @@
 
     .padding {
         padding-top: 0;
+    }
+
+    .section5 {
+        .positionContainer {          
+            .textContainer {
+                h3 {
+                    font-size: 2.2rem;
+                }
+            }
+        }
     }
 
     // about us
@@ -308,7 +375,39 @@
 
     // home
     .gridContainer {
-        grid-template-rows: 1fr 1fr 0.5fr 1fr 0.5fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 0.5fr 1fr 0.5fr 1fr 1fr 0.9fr;
+    }
+
+    .smTitle {
+        font-size: 1.5rem;
+    }
+
+    .section1 {
+        h2 {
+            font-size: 1.5rem;
+        }
+        
+        p {
+            font-size: 1.1rem;
+        }
+    }
+
+    .lgTitle {
+        font-size: 2rem;
+    }
+
+    .btn-info {
+        font-size: 1rem;
+    }
+
+    .section5 {
+        .positionContainer {
+            .textContainer {
+                h3 {
+                    font-size: 1.8rem;
+                }
+            }
+        }
     }
 
     // about ut
@@ -366,8 +465,25 @@
 
     // home
     .gridContainer {
-        grid-template-rows: 1fr 1fr 0.5fr 1fr 0.5fr 1fr 0.8fr 1fr;
+        grid-template-rows: 1fr 0.7fr 0.53fr 0.73fr 0.5fr 1fr 0.7fr 1.2fr;
     }
+
+    .section5 {
+        flex-direction: column;
+
+        .positionContainer {
+            .textContainer {
+                h3 {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+    }
+
+    .imgContainer {
+        height: 400px;
+    }
+
 
     // about us 
     .fondoAbout {
