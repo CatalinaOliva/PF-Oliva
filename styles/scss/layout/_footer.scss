@@ -12,6 +12,18 @@
 .textFooter {
     font-family: 'ABeeZee', sans-serif;
     font-size: 1rem;
+    padding-left: 0;
+    
+        li {
+            text-align: center; 
+        }
+}
+
+.iconsFooter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .padding {

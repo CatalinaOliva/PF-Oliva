@@ -1,11 +1,23 @@
+@import "../utils/variables";
+
 .navbar2.scrolled {
-    background-color: #415a7766;
+    background-color: #415a7793;
 }
 
-.urlButton {
-    color: white;
+.navbar {
+    ul {
+        li {
+            text-align: right;
+        }
+    }
 }
 
-.urlButton:hover {
-    color: black;
+.navbar-toggler {
+    border: 0;
+    color: $color-principal;
+    font-size: 1.8rem;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
 }

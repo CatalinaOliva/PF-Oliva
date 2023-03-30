@@ -1,6 +1,24 @@
 @import "../utils/variables";
 
 // home
+.navbar {
+   ul {
+      li {
+         .btn {
+            border-radius: 0;
+        }
+      }
+   }
+}
+
+.urlButton {
+   color: white;
+}
+
+.urlButton:hover {
+   color: black;
+}
+
  .btn-info {
     border-radius: 0;
     --bs-btn-bg: #0d1b2a;
@@ -18,3 +36,17 @@
     --bs-btn-border-color: none;
     --bs-btn-hover-bg: #0d1b2a;
  }
+
+.btn-light {
+   --bs-btn-bg: #162e47;
+   --bs-btn-border-color: none;
+   --bs-btn-hover-bg: white;
+   --bs-btn-color: rgb(255, 255, 255);
+   border-radius: 0;
+   --bs-btn-hover-color: #162e47;
+   font-size: 1.2rem;
+}
+
+.buttonsFooter {
+   justify-content: start;
+}

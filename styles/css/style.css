@@ -14,6 +14,18 @@ html {
   scroll-behavior: smooth;
 }
 
+.navbar ul li .btn {
+  border-radius: 0;
+}
+
+.urlButton {
+  color: white;
+}
+
+.urlButton:hover {
+  color: black;
+}
+
 .btn-info {
   border-radius: 0;
   --bs-btn-bg: #0d1b2a;
@@ -29,6 +41,20 @@ html {
   --bs-btn-bg: #415a77;
   --bs-btn-border-color: none;
   --bs-btn-hover-bg: #0d1b2a;
+}
+
+.btn-light {
+  --bs-btn-bg: #162e47;
+  --bs-btn-border-color: none;
+  --bs-btn-hover-bg: white;
+  --bs-btn-color: rgb(255, 255, 255);
+  border-radius: 0;
+  --bs-btn-hover-color: #162e47;
+  font-size: 1.2rem;
+}
+
+.buttonsFooter {
+  justify-content: start;
 }
 
 /* video de fondo pag uno */
@@ -688,6 +714,17 @@ html {
 .textFooter {
   font-family: "ABeeZee", sans-serif;
   font-size: 1rem;
+  padding-left: 0;
+}
+.textFooter li {
+  text-align: center;
+}
+
+.iconsFooter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 
 .padding {
@@ -695,7 +732,25 @@ html {
 }
 
 .navbar2.scrolled {
-  background-color: rgba(65, 90, 119, 0.4);
+  background-color: rgba(65, 90, 119, 0.5764705882);
+}
+
+.navbar ul li {
+  text-align: right;
+}
+
+.navbar-toggler {
+  border: 0;
+  color: #f3f4f4;
+  font-size: 1.8rem;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar ul li .btn {
+  border-radius: 0;
 }
 
 .urlButton {
@@ -721,6 +776,20 @@ html {
   --bs-btn-bg: #415a77;
   --bs-btn-border-color: none;
   --bs-btn-hover-bg: #0d1b2a;
+}
+
+.btn-light {
+  --bs-btn-bg: #162e47;
+  --bs-btn-border-color: none;
+  --bs-btn-hover-bg: white;
+  --bs-btn-color: rgb(255, 255, 255);
+  border-radius: 0;
+  --bs-btn-hover-color: #162e47;
+  font-size: 1.2rem;
+}
+
+.buttonsFooter {
+  justify-content: start;
 }
 
 @media screen and (max-width: 1024px) {
@@ -798,6 +867,18 @@ html {
   }
   .section5 .positionContainer .textContainer h3 {
     font-size: 1.7rem;
+  }
+  .btn-light {
+    font-size: 1rem;
+  }
+  .titleFooter {
+    text-align: center;
+  }
+  .textFooter {
+    text-align: center;
+  }
+  .buttonsFooter {
+    justify-content: center;
   }
   .fondoAbout h2 {
     font-size: 3rem;
