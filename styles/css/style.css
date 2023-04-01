@@ -820,6 +820,10 @@ html {
   padding-top: 50px;
 }
 
+.labelFooter {
+  font-family: "ABeeZee", sans-serif;
+}
+
 .navbar2.scrolled {
   background-color: rgba(65, 90, 119, 0.5764705882);
 }
