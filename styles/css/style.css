@@ -881,7 +881,10 @@ html {
   background-color: rgba(65, 90, 119, 0.5764705882);
 }
 
-.urlButton {
+.containerUrlButton {
+  display: block;
+}
+.containerUrlButton .urlButton {
   color: white;
   border: 1px solid white;
   border-radius: 10px;
@@ -889,7 +892,7 @@ html {
   text-align: center;
 }
 
-.urlButton:hover {
+.containerUrlButton:hover .urlButton:hover {
   color: black;
   background-color: white;
 }

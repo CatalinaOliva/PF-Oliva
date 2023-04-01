@@ -4,17 +4,22 @@
     background-color: #415a7793;
 }
 
-.urlButton  {
-    color: white;
-    border: 1px solid white;
-    border-radius: 10px;
-    width: 70px;
-    text-align: center;
+.containerUrlButton {
+    display: block;
+    .urlButton  {
+        color: white;
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 70px;
+        text-align: center;
+    }
 }
 
-.urlButton:hover {
-    color: black;
-    background-color: white;
+.containerUrlButton:hover {
+    .urlButton:hover {
+        color: black;
+        background-color: white;
+    }
 }
 
 .urlButtonDark {
