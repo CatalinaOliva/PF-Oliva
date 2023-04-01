@@ -45,3 +45,45 @@
         grid-area: img8;
     }
 }
+
+@each $nombre,
+$estilos in $images3 {
+    .style#{$nombre} {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), $estilos;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+    }
+}
+
+@each $nombre,
+$estilos in $images3 {
+    .style#{$nombre}:hover {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), $estilos;
+    }
+}
+
+.containerMarineLife {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    .urlButtonMarine {
+        margin-bottom: 50px;
+        display: none;
+        border: 1px solid #0d1b2a;
+        background-color: #0d1b2a;
+        color: white;
+        padding: 8px;
+        font-family: $font-text;
+        font-size: 1.2rem;
+    }
+}
+
+.containerMarineLife:hover {
+    .urlButtonMarine {
+        display: block;
+    }
+}

@@ -4,9 +4,23 @@ $font-text: 'ABeeZee', sans-serif;
 $font-title: 'Playfair Display', serif;
 $color-secondary: #0d1b2a;
 
-$images: (
+$images1: (
     Img0: url(../../resources/images/download.jpg),
 
+    Img14: url(../../resources/images/fondotakeaction.jpg),
+
+    Img15: url(../../resources/images/right_whale.jpg),
+
+    Img16: url(../../resources/images/turtlee.jpg),
+
+    Img17: url(../../resources/images/Bike_AmazonHQ.jpg),
+
+    Img18: url(../../resources/images/shutterstock_1430249291.jpg),
+
+    Img19: url(../../resources/images/bp_deepwater_horizon_disaster_3.jpg),
+);
+
+$images2: (
     Img1: url(../../resources/images/photo_2022-12-20-17.59.55-200.jpeg),
 
     Img2: url(../../resources/images/sri-lanka-sea-turtle-rescue-and-rehabilitation-main-new1-pyo0b7gtweofhe4ss8zghf8liq3gtnyqhf1uk3ypl2.jpg),
@@ -16,7 +30,9 @@ $images: (
     Img4: url(../../resources/images/01-solitary-lions-nationalgeographic_2679408.jpg),
 
     Img5: url(../../resources/images/playa.jpg),
+);
 
+$images3: (
     Img6: url(../../resources/images/cephalopods.jpg),
 
     Img7: url(../../resources/images/coral.jpg),
@@ -32,19 +48,9 @@ $images: (
     Img12: url(../../resources/images/seabirds.jpg),
 
     Img13: url(../../resources/images/sharks_0.jpg),
-
-    Img14: url(../../resources/images/fondotakeaction.jpg),
-
-    Img15: url(../../resources/images/right_whale.jpg),
-
-    Img16: url(../../resources/images/turtlee.jpg),
-
-    Img17: url(../../resources/images/Bike_AmazonHQ.jpg),
-
-    Img18: url(../../resources/images/shutterstock_1430249291.jpg),
-
-    Img19: url(../../resources/images/bp_deepwater_horizon_disaster_3.jpg),
 );
+
+
 
 $alturas: (
     1: 465px,

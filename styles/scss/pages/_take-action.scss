@@ -6,3 +6,9 @@
 .titleTake {
     @extend .titleVolunt2;
 }
+
+.takeActionContainer {
+    button {
+        border-radius: 0;
+    }
+}

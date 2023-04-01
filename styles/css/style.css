@@ -14,18 +14,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.navbar ul li .btn {
-  border-radius: 0;
-}
-
-.urlButton {
-  color: white;
-}
-
-.urlButton:hover {
-  color: black;
-}
-
 .btn-info {
   border-radius: 0;
   --bs-btn-bg: #0d1b2a;
@@ -264,6 +252,9 @@ html {
 .backgroundHeight {
   height: 90vh;
 }
+.backgroundHeight .mask2 {
+  background-color: rgba(0, 0, 0, 0.514);
+}
 .backgroundHeight h1 {
   font-family: "Playfair Display", serif;
   font-size: 5rem;
@@ -461,6 +452,54 @@ html {
   display: block;
 }
 
+.styleImg14 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/fondotakeaction.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.styleImg15 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/right_whale.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.styleImg16 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/turtlee.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.styleImg17 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/Bike_AmazonHQ.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.styleImg18 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/shutterstock_1430249291.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.styleImg19 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/bp_deepwater_horizon_disaster_3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
 .styleImg1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/photo_2022-12-20-17.59.55-200.jpeg);
   background-position: center;
@@ -499,6 +538,102 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
+}
+
+.styleImg1:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/photo_2022-12-20-17.59.55-200.jpeg);
+}
+
+.styleImg2:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/sri-lanka-sea-turtle-rescue-and-rehabilitation-main-new1-pyo0b7gtweofhe4ss8zghf8liq3gtnyqhf1uk3ypl2.jpg);
+}
+
+.styleImg3:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/Tanzania-Zanzibar-Teaching-Assistant-main-1-pyo235fkto7naf92ee0slscgbcxdgetdlwpyur5kau.jpg);
+}
+
+.styleImg4:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/01-solitary-lions-nationalgeographic_2679408.jpg);
+}
+
+.styleImg5:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/playa.jpg);
+}
+
+.altura1 {
+  height: 465px;
+}
+
+.altura2 {
+  height: 200px;
+}
+
+.altura3 {
+  height: 285px;
+}
+
+.altura4 {
+  height: 300px;
+}
+
+.containerImg {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.containerImg button {
+  position: absolute;
+  display: none;
+  border-radius: 0;
+}
+
+.containerImg:hover button {
+  display: block;
+}
+.containerImg:hover .titleVolunt2, .containerImg:hover .titleTake, .containerImg:hover .titleMarine2 {
+  text-align: center;
+}
+
+.titleMarine2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.gridContainerMarine {
+  display: grid;
+  grid-template-areas: "img1 img2" "img3 img4" "img5 img6" "img7 img8";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.gridContainerMarineImg1 {
+  grid-area: img1;
+}
+.gridContainerMarineImg2 {
+  grid-area: img2;
+}
+.gridContainerMarineImg3 {
+  grid-area: img3;
+}
+.gridContainerMarineImg4 {
+  grid-area: img4;
+}
+.gridContainerMarineImg5 {
+  grid-area: img5;
+}
+.gridContainerMarineImg6 {
+  grid-area: img6;
+}
+.gridContainerMarineImg7 {
+  grid-area: img7;
+}
+.gridContainerMarineImg8 {
+  grid-area: img8;
 }
 
 .styleImg6 {
@@ -565,112 +700,66 @@ html {
   display: block;
 }
 
-.styleImg14 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/fondotakeaction.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
+.styleImg6:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/cephalopods.jpg);
 }
 
-.styleImg15 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/right_whale.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
+.styleImg7:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/coral.jpg);
 }
 
-.styleImg16 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/turtlee.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
+.styleImg8:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/marinemammals.jpg);
 }
 
-.styleImg17 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/Bike_AmazonHQ.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
+.styleImg9:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/ecosystems.jpg);
 }
 
-.styleImg18 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/shutterstock_1430249291.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
+.styleImg10:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/fishes_alt.jpg);
 }
 
-.styleImg19 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/bp_deepwater_horizon_disaster_3.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
+.styleImg11:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/seaturtlesandreptiles.jpg);
 }
 
-.altura1 {
-  height: 465px;
+.styleImg12:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/seabirds.jpg);
 }
 
-.altura2 {
-  height: 200px;
+.styleImg13:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/sharks_0.jpg);
 }
 
-.altura3 {
-  height: 285px;
-}
-
-.altura4 {
-  height: 300px;
-}
-
-.titleMarine2 {
+.containerMarineLife {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
+}
+.containerMarineLife .urlButtonMarine {
+  margin-bottom: 50px;
+  display: none;
+  border: 1px solid #0d1b2a;
+  background-color: #0d1b2a;
+  color: white;
+  padding: 8px;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 1.2rem;
 }
 
-.gridContainerMarine {
-  display: grid;
-  grid-template-areas: "img1 img2" "img3 img4" "img5 img6" "img7 img8";
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-}
-.gridContainerMarineImg1 {
-  grid-area: img1;
-}
-.gridContainerMarineImg2 {
-  grid-area: img2;
-}
-.gridContainerMarineImg3 {
-  grid-area: img3;
-}
-.gridContainerMarineImg4 {
-  grid-area: img4;
-}
-.gridContainerMarineImg5 {
-  grid-area: img5;
-}
-.gridContainerMarineImg6 {
-  grid-area: img6;
-}
-.gridContainerMarineImg7 {
-  grid-area: img7;
-}
-.gridContainerMarineImg8 {
-  grid-area: img8;
+.containerMarineLife:hover .urlButtonMarine {
+  display: block;
 }
 
 .textTake {
   font-family: "ABeeZee", sans-serif;
   font-size: 1.2rem;
+}
+
+.takeActionContainer button {
+  border-radius: 0;
 }
 
 .h1Contact h1 {
@@ -735,6 +824,32 @@ html {
   background-color: rgba(65, 90, 119, 0.5764705882);
 }
 
+.urlButton {
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 70px;
+  text-align: center;
+}
+
+.urlButton:hover {
+  color: black;
+  background-color: white;
+}
+
+.urlButtonDark {
+  background-color: rgb(107, 107, 107);
+  color: white;
+  border: 1px solid rgb(107, 107, 107);
+  border-radius: 10px;
+  width: 70px;
+  text-align: center;
+}
+
+.urlButtonDark:hover {
+  color: white;
+}
+
 .navbar ul li {
   text-align: right;
 }
@@ -747,18 +862,6 @@ html {
 
 .navbar-toggler:focus {
   box-shadow: none;
-}
-
-.navbar ul li .btn {
-  border-radius: 0;
-}
-
-.urlButton {
-  color: white;
-}
-
-.urlButton:hover {
-  color: black;
 }
 
 .btn-info {
@@ -837,6 +940,10 @@ html {
   .gridContainer {
     grid-template-rows: 1fr 0.33fr 1fr 1fr 0.1fr;
   }
+  .containerUrlButton {
+    display: flex;
+    justify-content: flex-end;
+  }
   .section1 h2 {
     font-size: 1.3rem;
   }
@@ -879,6 +986,12 @@ html {
   }
   .buttonsFooter {
     justify-content: center;
+  }
+  .backgroundHeight h1 {
+    font-size: 3rem;
+  }
+  .backgroundHeight p {
+    font-size: 0.8rem;
   }
   .fondoAbout h2 {
     font-size: 3rem;
@@ -1019,6 +1132,9 @@ html {
     padding-top: 1.3rem;
     padding-left: 1rem;
   }
+  .containerMarineLife .urlButtonMarine {
+    font-size: 1rem;
+  }
 }
 @media screen and (max-width: 425px) {
   .gridContainer {
@@ -1041,6 +1157,10 @@ html {
   }
   .section5 .positionContainer .textContainer h3 {
     font-size: 1.8rem;
+  }
+  .backgroundHeight p {
+    margin-right: 10px;
+    margin-left: 10px;
   }
   .gridContainerAbout {
     grid-template-areas: "uno" "dos" "tres" "cuatro";
@@ -1096,8 +1216,8 @@ html {
   .heightAbout .imgCard img {
     width: 140px;
   }
-  .titleTake {
-    font-size: 1.3rem;
+  .textVolunt {
+    font-size: 0.5rem;
   }
   .h1Contact h1 {
     font-size: 2.4rem;

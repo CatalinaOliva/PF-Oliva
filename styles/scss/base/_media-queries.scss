@@ -85,6 +85,11 @@
         grid-template-rows: 1fr 0.33fr 1fr 1fr 0.1fr;
     }
 
+    .containerUrlButton {
+        display: flex;
+        justify-content: flex-end
+    }
+
     .section1 {
         h2 {
             font-size: 1.3rem;
@@ -155,6 +160,16 @@
     }
     
     // about us
+    .backgroundHeight {
+        h1 {
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 0.8rem;
+        }
+    }
+
     .fondoAbout {
         h2 {
             font-size: 3rem;
@@ -386,6 +401,13 @@
         padding-top: 1.3rem;
         padding-left: 1rem;
     }
+
+    // marine life
+    .containerMarineLife {
+        .urlButtonMarine {
+            font-size: 1rem;
+        }
+    }
 }
 
 @include xs {
@@ -427,7 +449,14 @@
         }
     }
 
-    // about ut
+    // about us
+    .backgroundHeight {
+        p {
+            margin-right: 10px;
+            margin-left: 10px
+        }
+    }
+    
     .gridContainerAbout {
         grid-template-areas:
             "uno"
@@ -527,9 +556,9 @@
         }
     }
 
-    // take action
-    .titleTake {
-        font-size: 1.3rem;
+    // volunteering 
+    .textVolunt {
+        font-size: 0.5rem;
     }
 
     // contact {

@@ -2,6 +2,10 @@
 .backgroundHeight {
     height: 90vh;
 
+    .mask2 {
+        background-color: rgba(0, 0, 0, 0.514);
+    }
+
     h1 {
         font-family: $font-title;
         font-size: 5rem;

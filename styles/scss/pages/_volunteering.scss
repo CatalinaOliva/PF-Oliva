@@ -1,3 +1,4 @@
+@import "../utils/variables";
 // primera pagina
 .background {
     height: 50vh;
@@ -10,7 +11,7 @@
 }
 
 @each $nombre,
-$estilos in $images {
+$estilos in $images1 {
     .style#{$nombre} {
         background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), $estilos;
         background-position: center;
@@ -20,9 +21,53 @@ $estilos in $images {
     }
 }
 
+@each $nombre,
+$estilos in $images2 {
+    .style#{$nombre} {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), $estilos;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+    }
+}
+
+@each $nombre,
+$estilos in $images2 {
+    .style#{$nombre}:hover {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), $estilos;
+    }
+}
+
+
 @each $clase,
 $pixeles in $alturas {
     .altura#{$clase} {
         height: $pixeles;
+    }
+}
+
+.containerImg {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    button {
+        position: absolute;
+        display: none;
+        border-radius: 0;
+    }
+}
+
+.containerImg:hover {
+    button {
+        display: block;
+    }
+
+    .titleVolunt2 {
+        text-align: center;
     }
 }
