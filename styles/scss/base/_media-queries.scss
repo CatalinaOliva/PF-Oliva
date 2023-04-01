@@ -158,7 +158,7 @@
     .buttonsFooter {
         justify-content: center;
     }
-    
+
     // about us
     .backgroundHeight {
         h1 {
@@ -273,6 +273,16 @@
     .contentContact {
         border-left: none !important;
     }
+
+    .containerFormContact {
+        grid-template-areas:
+            "texto"
+            "texto"
+            "inputs"
+            "inputs";
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
 }
 
 @include s {
@@ -346,7 +356,7 @@
     }
 
     .section5 {
-        .positionContainer {          
+        .positionContainer {
             .textContainer {
                 h3 {
                     font-size: 2.2rem;
@@ -408,6 +418,19 @@
             font-size: 1rem;
         }
     }
+
+    // contact
+    .containerFormContact {
+        .containerText {
+            h3 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
 }
 
 @include xs {
@@ -425,7 +448,7 @@
         h2 {
             font-size: 1.5rem;
         }
-        
+
         p {
             font-size: 1.1rem;
         }
@@ -456,7 +479,7 @@
             margin-left: 10px
         }
     }
-    
+
     .gridContainerAbout {
         grid-template-areas:
             "uno"
@@ -504,6 +527,27 @@
 
     .titleTake {
         font-size: 1.5rem;
+    }
+
+    // contact
+    .containerFormContact {
+        grid-template-areas:
+            "texto"
+            "inputs"
+            "inputs";
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr 1fr;
+
+        .containerInputs {
+            align-items: center;
+            flex-direction: column;
+
+            .contentCheckbox {
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+            }
+        }
     }
 }
 
@@ -575,6 +619,20 @@
 
         p {
             font-size: 1rem;
+        }
+    }
+
+    .containerFormContact {
+        .containerInputs {
+            .contentCheckbox {
+                label {
+                    font-size: 0.8rem;
+                }
+            }
+
+            .labelEmail {
+                margin-top: 5px;
+            }
         }
     }
 }
