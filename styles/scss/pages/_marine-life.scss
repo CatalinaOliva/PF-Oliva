@@ -1,3 +1,5 @@
+@import "../utils/variables";
+
 .titleMarine2 {
     @extend .titleVolunt2;
     @include displayFlex ($ubicacion: wrap);

@@ -1387,6 +1387,9 @@ button .iconDark {
   .containerFormContact .containerInputs .labelEmail {
     margin-top: 5px;
   }
+  .labelFooter {
+    font-size: 0.9rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
