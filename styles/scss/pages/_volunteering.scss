@@ -1,4 +1,5 @@
 @import "../utils/variables";
+
 // primera pagina
 .background {
     height: 50vh;
@@ -29,6 +30,18 @@ $estilos in $images2 {
         background-repeat: no-repeat;
         background-size: cover;
         display: block;
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+
+        button {
+            position: absolute;
+            display: none;
+            border-radius: 0;
+        }
     }
 }
 
@@ -36,6 +49,14 @@ $estilos in $images2 {
 $estilos in $images2 {
     .style#{$nombre}:hover {
         background-image: linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), $estilos;
+
+        button {
+            display: block;
+        }
+
+        .titleVolunt2 {
+            text-align: center;
+        }
     }
 }
 
@@ -47,27 +68,3 @@ $pixeles in $alturas {
     }
 }
 
-.containerImg {
-    position: relative;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-
-    button {
-        position: absolute;
-        display: none;
-        border-radius: 0;
-    }
-}
-
-.containerImg:hover {
-    button {
-        display: block;
-    }
-
-    .titleVolunt2 {
-        text-align: center;
-    }
-}
