@@ -881,6 +881,10 @@ html {
   background-color: rgba(65, 90, 119, 0.5764705882);
 }
 
+button .iconDark {
+  color: rgb(73, 72, 72);
+}
+
 .containerUrlButton {
   display: block;
 }
