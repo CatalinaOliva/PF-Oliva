@@ -38,7 +38,8 @@ $estilos in $images2 {
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-            position: relative;
+            position: absolute;
+            top: 0;
             display: flex;
             flex-wrap: nowrap;
             flex-direction: column;
@@ -46,14 +47,14 @@ $estilos in $images2 {
             align-items: center;
 
             .titleAnimation {
-                display: none;
+                opacity: 0;
                 text-align: center;
                 @extend .titleVolunt2;
             }
 
             button {
                 position: absolute;
-                display: none;
+                opacity: 0;
                 border-radius: 0;
             }
         }
@@ -65,7 +66,7 @@ $estilos in $images2 {
     .style#{$nombre}:hover {
 
         .titleVolunt2 {
-            display: none;
+            opacity: 0;
         }
 
         .containerAnimation {
@@ -73,11 +74,11 @@ $estilos in $images2 {
             opacity: 1;
 
             button {
-                display: block;
+                opacity: 1;
             }
 
             .titleAnimation {
-                display: block;
+                opacity: 1;
             }
         }
 

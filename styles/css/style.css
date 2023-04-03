@@ -517,7 +517,8 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  position: absolute;
+  top: 0;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
@@ -525,12 +526,12 @@ html {
   align-items: center;
 }
 .styleImg1 .containerAnimation .titleAnimation {
-  display: none;
+  opacity: 0;
   text-align: center;
 }
 .styleImg1 .containerAnimation button {
   position: absolute;
-  display: none;
+  opacity: 0;
   border-radius: 0;
 }
 
@@ -548,7 +549,8 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  position: absolute;
+  top: 0;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
@@ -556,12 +558,12 @@ html {
   align-items: center;
 }
 .styleImg2 .containerAnimation .titleAnimation {
-  display: none;
+  opacity: 0;
   text-align: center;
 }
 .styleImg2 .containerAnimation button {
   position: absolute;
-  display: none;
+  opacity: 0;
   border-radius: 0;
 }
 
@@ -579,7 +581,8 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  position: absolute;
+  top: 0;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
@@ -587,12 +590,12 @@ html {
   align-items: center;
 }
 .styleImg3 .containerAnimation .titleAnimation {
-  display: none;
+  opacity: 0;
   text-align: center;
 }
 .styleImg3 .containerAnimation button {
   position: absolute;
-  display: none;
+  opacity: 0;
   border-radius: 0;
 }
 
@@ -610,7 +613,8 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  position: absolute;
+  top: 0;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
@@ -618,12 +622,12 @@ html {
   align-items: center;
 }
 .styleImg4 .containerAnimation .titleAnimation {
-  display: none;
+  opacity: 0;
   text-align: center;
 }
 .styleImg4 .containerAnimation button {
   position: absolute;
-  display: none;
+  opacity: 0;
   border-radius: 0;
 }
 
@@ -641,7 +645,8 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  position: absolute;
+  top: 0;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
@@ -649,83 +654,83 @@ html {
   align-items: center;
 }
 .styleImg5 .containerAnimation .titleAnimation {
-  display: none;
+  opacity: 0;
   text-align: center;
 }
 .styleImg5 .containerAnimation button {
   position: absolute;
-  display: none;
+  opacity: 0;
   border-radius: 0;
 }
 
 .styleImg1:hover .titleVolunt2, .styleImg1:hover .titleTake, .styleImg1:hover .titleMarine2, .styleImg1:hover .containerAnimation .titleAnimation, .styleImg2 .containerAnimation .styleImg1:hover .titleAnimation, .styleImg3 .containerAnimation .styleImg1:hover .titleAnimation, .styleImg4 .containerAnimation .styleImg1:hover .titleAnimation, .styleImg5 .containerAnimation .styleImg1:hover .titleAnimation {
-  display: none;
+  opacity: 0;
 }
 .styleImg1:hover .containerAnimation {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   opacity: 1;
 }
 .styleImg1:hover .containerAnimation button {
-  display: block;
+  opacity: 1;
 }
 .styleImg1:hover .containerAnimation .titleAnimation {
-  display: block;
+  opacity: 1;
 }
 
 .styleImg2:hover .titleVolunt2, .styleImg2:hover .titleTake, .styleImg2:hover .titleMarine2, .styleImg1 .containerAnimation .styleImg2:hover .titleAnimation, .styleImg2:hover .containerAnimation .titleAnimation, .styleImg3 .containerAnimation .styleImg2:hover .titleAnimation, .styleImg4 .containerAnimation .styleImg2:hover .titleAnimation, .styleImg5 .containerAnimation .styleImg2:hover .titleAnimation {
-  display: none;
+  opacity: 0;
 }
 .styleImg2:hover .containerAnimation {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   opacity: 1;
 }
 .styleImg2:hover .containerAnimation button {
-  display: block;
+  opacity: 1;
 }
 .styleImg2:hover .containerAnimation .titleAnimation {
-  display: block;
+  opacity: 1;
 }
 
 .styleImg3:hover .titleVolunt2, .styleImg3:hover .titleTake, .styleImg3:hover .titleMarine2, .styleImg1 .containerAnimation .styleImg3:hover .titleAnimation, .styleImg2 .containerAnimation .styleImg3:hover .titleAnimation, .styleImg3:hover .containerAnimation .titleAnimation, .styleImg4 .containerAnimation .styleImg3:hover .titleAnimation, .styleImg5 .containerAnimation .styleImg3:hover .titleAnimation {
-  display: none;
+  opacity: 0;
 }
 .styleImg3:hover .containerAnimation {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   opacity: 1;
 }
 .styleImg3:hover .containerAnimation button {
-  display: block;
+  opacity: 1;
 }
 .styleImg3:hover .containerAnimation .titleAnimation {
-  display: block;
+  opacity: 1;
 }
 
 .styleImg4:hover .titleVolunt2, .styleImg4:hover .titleTake, .styleImg4:hover .titleMarine2, .styleImg1 .containerAnimation .styleImg4:hover .titleAnimation, .styleImg2 .containerAnimation .styleImg4:hover .titleAnimation, .styleImg3 .containerAnimation .styleImg4:hover .titleAnimation, .styleImg4:hover .containerAnimation .titleAnimation, .styleImg5 .containerAnimation .styleImg4:hover .titleAnimation {
-  display: none;
+  opacity: 0;
 }
 .styleImg4:hover .containerAnimation {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   opacity: 1;
 }
 .styleImg4:hover .containerAnimation button {
-  display: block;
+  opacity: 1;
 }
 .styleImg4:hover .containerAnimation .titleAnimation {
-  display: block;
+  opacity: 1;
 }
 
 .styleImg5:hover .titleVolunt2, .styleImg5:hover .titleTake, .styleImg5:hover .titleMarine2, .styleImg1 .containerAnimation .styleImg5:hover .titleAnimation, .styleImg2 .containerAnimation .styleImg5:hover .titleAnimation, .styleImg3 .containerAnimation .styleImg5:hover .titleAnimation, .styleImg4 .containerAnimation .styleImg5:hover .titleAnimation, .styleImg5:hover .containerAnimation .titleAnimation {
-  display: none;
+  opacity: 0;
 }
 .styleImg5:hover .containerAnimation {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   opacity: 1;
 }
 .styleImg5:hover .containerAnimation button {
-  display: block;
+  opacity: 1;
 }
 .styleImg5:hover .containerAnimation .titleAnimation {
-  display: block;
+  opacity: 1;
 }
 
 .altura1 {
@@ -789,6 +794,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
+  transition: all, 2s;
 }
 
 .styleImg7 {
@@ -797,6 +803,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
+  transition: all, 2s;
 }
 
 .styleImg8 {
@@ -805,6 +812,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
+  transition: all, 2s;
 }
 
 .styleImg9 {
@@ -813,6 +821,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
+  transition: all, 2s;
 }
 
 .styleImg10 {
@@ -821,6 +830,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
+  transition: all, 2s;
 }
 
 .styleImg11 {
@@ -829,6 +839,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
+  transition: all, 2s;
 }
 
 .styleImg12 {
@@ -837,6 +848,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
+  transition: all, 2s;
 }
 
 .styleImg13 {
@@ -845,6 +857,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
+  transition: all, 2s;
 }
 
 .styleImg6:hover {
