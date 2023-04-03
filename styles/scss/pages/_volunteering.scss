@@ -29,18 +29,33 @@ $estilos in $images2 {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        display: block;
         position: relative;
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;
+        height: 465px;
 
-        button {
-            position: absolute;
-            display: none;
-            border-radius: 0;
+        .containerAnimation {
+            opacity: 0;
+            transition: all, 1s;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+
+            .titleAnimation {
+                display: none;
+                text-align: center;
+                @extend .titleVolunt2;
+            }
+
+            button {
+                position: absolute;
+                display: none;
+                border-radius: 0;
+            }
         }
     }
 }
@@ -48,15 +63,24 @@ $estilos in $images2 {
 @each $nombre,
 $estilos in $images2 {
     .style#{$nombre}:hover {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), $estilos;
-
-        button {
-            display: block;
-        }
 
         .titleVolunt2 {
-            text-align: center;
+            display: none;
         }
+
+        .containerAnimation {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700));
+            opacity: 1;
+
+            button {
+                display: block;
+            }
+
+            .titleAnimation {
+                display: block;
+            }
+        }
+
     }
 }
 
@@ -67,4 +91,3 @@ $pixeles in $alturas {
         height: $pixeles;
     }
 }
-

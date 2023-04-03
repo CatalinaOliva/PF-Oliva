@@ -442,7 +442,7 @@ html {
   height: 50vh;
 }
 
-.titleVolunt2, .titleTake, .titleMarine2 {
+.titleVolunt2, .titleTake, .titleMarine2, .styleImg5 .containerAnimation .titleAnimation, .styleImg4 .containerAnimation .titleAnimation, .styleImg3 .containerAnimation .titleAnimation, .styleImg2 .containerAnimation .titleAnimation, .styleImg1 .containerAnimation .titleAnimation {
   font-family: "Playfair Display", serif;
   font-size: 2rem;
 }
@@ -508,7 +508,15 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: block;
+  position: relative;
+  height: 465px;
+}
+.styleImg1 .containerAnimation {
+  opacity: 0;
+  transition: all, 1s;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   display: flex;
   flex-wrap: nowrap;
@@ -516,7 +524,11 @@ html {
   justify-content: flex-end;
   align-items: center;
 }
-.styleImg1 button {
+.styleImg1 .containerAnimation .titleAnimation {
+  display: none;
+  text-align: center;
+}
+.styleImg1 .containerAnimation button {
   position: absolute;
   display: none;
   border-radius: 0;
@@ -527,7 +539,15 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: block;
+  position: relative;
+  height: 465px;
+}
+.styleImg2 .containerAnimation {
+  opacity: 0;
+  transition: all, 1s;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   display: flex;
   flex-wrap: nowrap;
@@ -535,7 +555,11 @@ html {
   justify-content: flex-end;
   align-items: center;
 }
-.styleImg2 button {
+.styleImg2 .containerAnimation .titleAnimation {
+  display: none;
+  text-align: center;
+}
+.styleImg2 .containerAnimation button {
   position: absolute;
   display: none;
   border-radius: 0;
@@ -546,7 +570,15 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: block;
+  position: relative;
+  height: 465px;
+}
+.styleImg3 .containerAnimation {
+  opacity: 0;
+  transition: all, 1s;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   display: flex;
   flex-wrap: nowrap;
@@ -554,7 +586,11 @@ html {
   justify-content: flex-end;
   align-items: center;
 }
-.styleImg3 button {
+.styleImg3 .containerAnimation .titleAnimation {
+  display: none;
+  text-align: center;
+}
+.styleImg3 .containerAnimation button {
   position: absolute;
   display: none;
   border-radius: 0;
@@ -565,7 +601,15 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: block;
+  position: relative;
+  height: 465px;
+}
+.styleImg4 .containerAnimation {
+  opacity: 0;
+  transition: all, 1s;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   display: flex;
   flex-wrap: nowrap;
@@ -573,7 +617,11 @@ html {
   justify-content: flex-end;
   align-items: center;
 }
-.styleImg4 button {
+.styleImg4 .containerAnimation .titleAnimation {
+  display: none;
+  text-align: center;
+}
+.styleImg4 .containerAnimation button {
   position: absolute;
   display: none;
   border-radius: 0;
@@ -584,7 +632,15 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: block;
+  position: relative;
+  height: 465px;
+}
+.styleImg5 .containerAnimation {
+  opacity: 0;
+  transition: all, 1s;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   display: flex;
   flex-wrap: nowrap;
@@ -592,60 +648,84 @@ html {
   justify-content: flex-end;
   align-items: center;
 }
-.styleImg5 button {
+.styleImg5 .containerAnimation .titleAnimation {
+  display: none;
+  text-align: center;
+}
+.styleImg5 .containerAnimation button {
   position: absolute;
   display: none;
   border-radius: 0;
 }
 
-.styleImg1:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/photo_2022-12-20-17.59.55-200.jpeg);
+.styleImg1:hover .titleVolunt2, .styleImg1:hover .titleTake, .styleImg1:hover .titleMarine2, .styleImg1:hover .containerAnimation .titleAnimation, .styleImg2 .containerAnimation .styleImg1:hover .titleAnimation, .styleImg3 .containerAnimation .styleImg1:hover .titleAnimation, .styleImg4 .containerAnimation .styleImg1:hover .titleAnimation, .styleImg5 .containerAnimation .styleImg1:hover .titleAnimation {
+  display: none;
 }
-.styleImg1:hover button {
+.styleImg1:hover .containerAnimation {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  opacity: 1;
+}
+.styleImg1:hover .containerAnimation button {
   display: block;
 }
-.styleImg1:hover .titleVolunt2, .styleImg1:hover .titleTake, .styleImg1:hover .titleMarine2 {
-  text-align: center;
+.styleImg1:hover .containerAnimation .titleAnimation {
+  display: block;
 }
 
-.styleImg2:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/sri-lanka-sea-turtle-rescue-and-rehabilitation-main-new1-pyo0b7gtweofhe4ss8zghf8liq3gtnyqhf1uk3ypl2.jpg);
+.styleImg2:hover .titleVolunt2, .styleImg2:hover .titleTake, .styleImg2:hover .titleMarine2, .styleImg1 .containerAnimation .styleImg2:hover .titleAnimation, .styleImg2:hover .containerAnimation .titleAnimation, .styleImg3 .containerAnimation .styleImg2:hover .titleAnimation, .styleImg4 .containerAnimation .styleImg2:hover .titleAnimation, .styleImg5 .containerAnimation .styleImg2:hover .titleAnimation {
+  display: none;
 }
-.styleImg2:hover button {
+.styleImg2:hover .containerAnimation {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  opacity: 1;
+}
+.styleImg2:hover .containerAnimation button {
   display: block;
 }
-.styleImg2:hover .titleVolunt2, .styleImg2:hover .titleTake, .styleImg2:hover .titleMarine2 {
-  text-align: center;
+.styleImg2:hover .containerAnimation .titleAnimation {
+  display: block;
 }
 
-.styleImg3:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/Tanzania-Zanzibar-Teaching-Assistant-main-1-pyo235fkto7naf92ee0slscgbcxdgetdlwpyur5kau.jpg);
+.styleImg3:hover .titleVolunt2, .styleImg3:hover .titleTake, .styleImg3:hover .titleMarine2, .styleImg1 .containerAnimation .styleImg3:hover .titleAnimation, .styleImg2 .containerAnimation .styleImg3:hover .titleAnimation, .styleImg3:hover .containerAnimation .titleAnimation, .styleImg4 .containerAnimation .styleImg3:hover .titleAnimation, .styleImg5 .containerAnimation .styleImg3:hover .titleAnimation {
+  display: none;
 }
-.styleImg3:hover button {
+.styleImg3:hover .containerAnimation {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  opacity: 1;
+}
+.styleImg3:hover .containerAnimation button {
   display: block;
 }
-.styleImg3:hover .titleVolunt2, .styleImg3:hover .titleTake, .styleImg3:hover .titleMarine2 {
-  text-align: center;
+.styleImg3:hover .containerAnimation .titleAnimation {
+  display: block;
 }
 
-.styleImg4:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/01-solitary-lions-nationalgeographic_2679408.jpg);
+.styleImg4:hover .titleVolunt2, .styleImg4:hover .titleTake, .styleImg4:hover .titleMarine2, .styleImg1 .containerAnimation .styleImg4:hover .titleAnimation, .styleImg2 .containerAnimation .styleImg4:hover .titleAnimation, .styleImg3 .containerAnimation .styleImg4:hover .titleAnimation, .styleImg4:hover .containerAnimation .titleAnimation, .styleImg5 .containerAnimation .styleImg4:hover .titleAnimation {
+  display: none;
 }
-.styleImg4:hover button {
+.styleImg4:hover .containerAnimation {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  opacity: 1;
+}
+.styleImg4:hover .containerAnimation button {
   display: block;
 }
-.styleImg4:hover .titleVolunt2, .styleImg4:hover .titleTake, .styleImg4:hover .titleMarine2 {
-  text-align: center;
+.styleImg4:hover .containerAnimation .titleAnimation {
+  display: block;
 }
 
-.styleImg5:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/playa.jpg);
+.styleImg5:hover .titleVolunt2, .styleImg5:hover .titleTake, .styleImg5:hover .titleMarine2, .styleImg1 .containerAnimation .styleImg5:hover .titleAnimation, .styleImg2 .containerAnimation .styleImg5:hover .titleAnimation, .styleImg3 .containerAnimation .styleImg5:hover .titleAnimation, .styleImg4 .containerAnimation .styleImg5:hover .titleAnimation, .styleImg5:hover .containerAnimation .titleAnimation {
+  display: none;
 }
-.styleImg5:hover button {
+.styleImg5:hover .containerAnimation {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  opacity: 1;
+}
+.styleImg5:hover .containerAnimation button {
   display: block;
 }
-.styleImg5:hover .titleVolunt2, .styleImg5:hover .titleTake, .styleImg5:hover .titleMarine2 {
-  text-align: center;
+.styleImg5:hover .containerAnimation .titleAnimation {
+  display: block;
 }
 
 .altura1 {
@@ -653,7 +733,7 @@ html {
 }
 
 .altura2 {
-  height: 200px;
+  height: 229px;
 }
 
 .altura3 {
@@ -1166,7 +1246,7 @@ button .iconDark {
   .titleCardAbout {
     font-size: 1.3rem;
   }
-  .titleVolunt2, .titleMarine2, .titleTake {
+  .titleVolunt2, .styleImg1 .containerAnimation .titleAnimation, .styleImg2 .containerAnimation .titleAnimation, .styleImg3 .containerAnimation .titleAnimation, .styleImg4 .containerAnimation .titleAnimation, .styleImg5 .containerAnimation .titleAnimation, .titleMarine2, .titleTake {
     font-size: 1.7rem;
   }
   .textTake {
@@ -1264,7 +1344,7 @@ button .iconDark {
   .fondoAbout .textVolunt {
     font-size: 1rem;
   }
-  .titleVolunt2, .titleMarine2, .titleTake {
+  .titleVolunt2, .styleImg1 .containerAnimation .titleAnimation, .styleImg2 .containerAnimation .titleAnimation, .styleImg3 .containerAnimation .titleAnimation, .styleImg4 .containerAnimation .titleAnimation, .styleImg5 .containerAnimation .titleAnimation, .titleMarine2, .titleTake {
     padding-top: 1.3rem;
     padding-left: 1rem;
   }
@@ -1343,6 +1423,9 @@ button .iconDark {
     justify-content: center;
     flex-direction: row;
   }
+  .labelFooter {
+    font-size: 0.9rem;
+  }
 }
 @media screen and (max-width: 375px) {
   .gridContainer {
@@ -1391,7 +1474,7 @@ button .iconDark {
     margin-top: 5px;
   }
   .labelFooter {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 }
 

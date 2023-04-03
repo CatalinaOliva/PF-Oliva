@@ -549,6 +549,10 @@
             }
         }
     }
+
+    .labelFooter {
+        font-size: 0.9rem;
+    }
 }
 
 @include xxs {
@@ -637,6 +641,6 @@
     }
 
     .labelFooter {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 }
