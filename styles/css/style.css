@@ -442,65 +442,9 @@ html {
   height: 50vh;
 }
 
-.titleVolunt2, .titleTake, .titleMarine2, .styleImg5 .containerAnimation .titleAnimation, .styleImg4 .containerAnimation .titleAnimation, .styleImg3 .containerAnimation .titleAnimation, .styleImg2 .containerAnimation .titleAnimation, .styleImg1 .containerAnimation .titleAnimation {
+.titleVolunt2, .titleTake, .styleImg13 .titleMarine2, .styleImg12 .titleMarine2, .styleImg11 .titleMarine2, .styleImg10 .titleMarine2, .styleImg9 .titleMarine2, .styleImg8 .titleMarine2, .styleImg7 .titleMarine2, .styleImg6 .titleMarine2, .styleImg5 .containerAnimation .titleAnimation, .styleImg4 .containerAnimation .titleAnimation, .styleImg3 .containerAnimation .titleAnimation, .styleImg2 .containerAnimation .titleAnimation, .styleImg1 .containerAnimation .titleAnimation {
   font-family: "Playfair Display", serif;
   font-size: 2rem;
-}
-
-.styleImg0 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/download.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
-}
-
-.styleImg14 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/fondotakeaction.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
-}
-
-.styleImg15 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/right_whale.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
-}
-
-.styleImg16 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/turtlee.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
-}
-
-.styleImg17 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/Bike_AmazonHQ.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
-}
-
-.styleImg18 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/shutterstock_1430249291.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
-}
-
-.styleImg19 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/bp_deepwater_horizon_disaster_3.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
 }
 
 .styleImg1 {
@@ -509,7 +453,6 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 465px;
 }
 .styleImg1 .containerAnimation {
   opacity: 0;
@@ -520,10 +463,10 @@ html {
   position: absolute;
   top: 0;
   display: flex;
-  flex-wrap: nowrap;
   flex-direction: column;
-  justify-content: flex-end;
+  flex-wrap: nowrap;
   align-items: center;
+  justify-content: flex-end;
 }
 .styleImg1 .containerAnimation .titleAnimation {
   opacity: 0;
@@ -541,7 +484,6 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 465px;
 }
 .styleImg2 .containerAnimation {
   opacity: 0;
@@ -552,10 +494,10 @@ html {
   position: absolute;
   top: 0;
   display: flex;
-  flex-wrap: nowrap;
   flex-direction: column;
-  justify-content: flex-end;
+  flex-wrap: nowrap;
   align-items: center;
+  justify-content: flex-end;
 }
 .styleImg2 .containerAnimation .titleAnimation {
   opacity: 0;
@@ -573,7 +515,6 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 465px;
 }
 .styleImg3 .containerAnimation {
   opacity: 0;
@@ -584,10 +525,10 @@ html {
   position: absolute;
   top: 0;
   display: flex;
-  flex-wrap: nowrap;
   flex-direction: column;
-  justify-content: flex-end;
+  flex-wrap: nowrap;
   align-items: center;
+  justify-content: flex-end;
 }
 .styleImg3 .containerAnimation .titleAnimation {
   opacity: 0;
@@ -605,7 +546,6 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 465px;
 }
 .styleImg4 .containerAnimation {
   opacity: 0;
@@ -616,10 +556,10 @@ html {
   position: absolute;
   top: 0;
   display: flex;
-  flex-wrap: nowrap;
   flex-direction: column;
-  justify-content: flex-end;
+  flex-wrap: nowrap;
   align-items: center;
+  justify-content: flex-end;
 }
 .styleImg4 .containerAnimation .titleAnimation {
   opacity: 0;
@@ -637,7 +577,6 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 465px;
 }
 .styleImg5 .containerAnimation {
   opacity: 0;
@@ -648,10 +587,10 @@ html {
   position: absolute;
   top: 0;
   display: flex;
-  flex-wrap: nowrap;
   flex-direction: column;
-  justify-content: flex-end;
+  flex-wrap: nowrap;
   align-items: center;
+  justify-content: flex-end;
 }
 .styleImg5 .containerAnimation .titleAnimation {
   opacity: 0;
@@ -663,7 +602,7 @@ html {
   border-radius: 0;
 }
 
-.styleImg1:hover .titleVolunt2, .styleImg1:hover .titleTake, .styleImg1:hover .titleMarine2, .styleImg1:hover .containerAnimation .titleAnimation, .styleImg2 .containerAnimation .styleImg1:hover .titleAnimation, .styleImg3 .containerAnimation .styleImg1:hover .titleAnimation, .styleImg4 .containerAnimation .styleImg1:hover .titleAnimation, .styleImg5 .containerAnimation .styleImg1:hover .titleAnimation {
+.styleImg1:hover .titleVolunt2, .styleImg1:hover .titleTake, .styleImg1:hover .styleImg13 .titleMarine2, .styleImg13 .styleImg1:hover .titleMarine2, .styleImg1:hover .styleImg12 .titleMarine2, .styleImg12 .styleImg1:hover .titleMarine2, .styleImg1:hover .styleImg11 .titleMarine2, .styleImg11 .styleImg1:hover .titleMarine2, .styleImg1:hover .styleImg10 .titleMarine2, .styleImg10 .styleImg1:hover .titleMarine2, .styleImg1:hover .styleImg9 .titleMarine2, .styleImg9 .styleImg1:hover .titleMarine2, .styleImg1:hover .styleImg8 .titleMarine2, .styleImg8 .styleImg1:hover .titleMarine2, .styleImg1:hover .styleImg7 .titleMarine2, .styleImg7 .styleImg1:hover .titleMarine2, .styleImg1:hover .styleImg6 .titleMarine2, .styleImg6 .styleImg1:hover .titleMarine2, .styleImg1:hover .containerAnimation .titleAnimation, .styleImg2 .containerAnimation .styleImg1:hover .titleAnimation, .styleImg3 .containerAnimation .styleImg1:hover .titleAnimation, .styleImg4 .containerAnimation .styleImg1:hover .titleAnimation, .styleImg5 .containerAnimation .styleImg1:hover .titleAnimation {
   opacity: 0;
 }
 .styleImg1:hover .containerAnimation {
@@ -677,7 +616,7 @@ html {
   opacity: 1;
 }
 
-.styleImg2:hover .titleVolunt2, .styleImg2:hover .titleTake, .styleImg2:hover .titleMarine2, .styleImg1 .containerAnimation .styleImg2:hover .titleAnimation, .styleImg2:hover .containerAnimation .titleAnimation, .styleImg3 .containerAnimation .styleImg2:hover .titleAnimation, .styleImg4 .containerAnimation .styleImg2:hover .titleAnimation, .styleImg5 .containerAnimation .styleImg2:hover .titleAnimation {
+.styleImg2:hover .titleVolunt2, .styleImg2:hover .titleTake, .styleImg2:hover .styleImg13 .titleMarine2, .styleImg13 .styleImg2:hover .titleMarine2, .styleImg2:hover .styleImg12 .titleMarine2, .styleImg12 .styleImg2:hover .titleMarine2, .styleImg2:hover .styleImg11 .titleMarine2, .styleImg11 .styleImg2:hover .titleMarine2, .styleImg2:hover .styleImg10 .titleMarine2, .styleImg10 .styleImg2:hover .titleMarine2, .styleImg2:hover .styleImg9 .titleMarine2, .styleImg9 .styleImg2:hover .titleMarine2, .styleImg2:hover .styleImg8 .titleMarine2, .styleImg8 .styleImg2:hover .titleMarine2, .styleImg2:hover .styleImg7 .titleMarine2, .styleImg7 .styleImg2:hover .titleMarine2, .styleImg2:hover .styleImg6 .titleMarine2, .styleImg6 .styleImg2:hover .titleMarine2, .styleImg1 .containerAnimation .styleImg2:hover .titleAnimation, .styleImg2:hover .containerAnimation .titleAnimation, .styleImg3 .containerAnimation .styleImg2:hover .titleAnimation, .styleImg4 .containerAnimation .styleImg2:hover .titleAnimation, .styleImg5 .containerAnimation .styleImg2:hover .titleAnimation {
   opacity: 0;
 }
 .styleImg2:hover .containerAnimation {
@@ -691,7 +630,7 @@ html {
   opacity: 1;
 }
 
-.styleImg3:hover .titleVolunt2, .styleImg3:hover .titleTake, .styleImg3:hover .titleMarine2, .styleImg1 .containerAnimation .styleImg3:hover .titleAnimation, .styleImg2 .containerAnimation .styleImg3:hover .titleAnimation, .styleImg3:hover .containerAnimation .titleAnimation, .styleImg4 .containerAnimation .styleImg3:hover .titleAnimation, .styleImg5 .containerAnimation .styleImg3:hover .titleAnimation {
+.styleImg3:hover .titleVolunt2, .styleImg3:hover .titleTake, .styleImg3:hover .styleImg13 .titleMarine2, .styleImg13 .styleImg3:hover .titleMarine2, .styleImg3:hover .styleImg12 .titleMarine2, .styleImg12 .styleImg3:hover .titleMarine2, .styleImg3:hover .styleImg11 .titleMarine2, .styleImg11 .styleImg3:hover .titleMarine2, .styleImg3:hover .styleImg10 .titleMarine2, .styleImg10 .styleImg3:hover .titleMarine2, .styleImg3:hover .styleImg9 .titleMarine2, .styleImg9 .styleImg3:hover .titleMarine2, .styleImg3:hover .styleImg8 .titleMarine2, .styleImg8 .styleImg3:hover .titleMarine2, .styleImg3:hover .styleImg7 .titleMarine2, .styleImg7 .styleImg3:hover .titleMarine2, .styleImg3:hover .styleImg6 .titleMarine2, .styleImg6 .styleImg3:hover .titleMarine2, .styleImg1 .containerAnimation .styleImg3:hover .titleAnimation, .styleImg2 .containerAnimation .styleImg3:hover .titleAnimation, .styleImg3:hover .containerAnimation .titleAnimation, .styleImg4 .containerAnimation .styleImg3:hover .titleAnimation, .styleImg5 .containerAnimation .styleImg3:hover .titleAnimation {
   opacity: 0;
 }
 .styleImg3:hover .containerAnimation {
@@ -705,7 +644,7 @@ html {
   opacity: 1;
 }
 
-.styleImg4:hover .titleVolunt2, .styleImg4:hover .titleTake, .styleImg4:hover .titleMarine2, .styleImg1 .containerAnimation .styleImg4:hover .titleAnimation, .styleImg2 .containerAnimation .styleImg4:hover .titleAnimation, .styleImg3 .containerAnimation .styleImg4:hover .titleAnimation, .styleImg4:hover .containerAnimation .titleAnimation, .styleImg5 .containerAnimation .styleImg4:hover .titleAnimation {
+.styleImg4:hover .titleVolunt2, .styleImg4:hover .titleTake, .styleImg4:hover .styleImg13 .titleMarine2, .styleImg13 .styleImg4:hover .titleMarine2, .styleImg4:hover .styleImg12 .titleMarine2, .styleImg12 .styleImg4:hover .titleMarine2, .styleImg4:hover .styleImg11 .titleMarine2, .styleImg11 .styleImg4:hover .titleMarine2, .styleImg4:hover .styleImg10 .titleMarine2, .styleImg10 .styleImg4:hover .titleMarine2, .styleImg4:hover .styleImg9 .titleMarine2, .styleImg9 .styleImg4:hover .titleMarine2, .styleImg4:hover .styleImg8 .titleMarine2, .styleImg8 .styleImg4:hover .titleMarine2, .styleImg4:hover .styleImg7 .titleMarine2, .styleImg7 .styleImg4:hover .titleMarine2, .styleImg4:hover .styleImg6 .titleMarine2, .styleImg6 .styleImg4:hover .titleMarine2, .styleImg1 .containerAnimation .styleImg4:hover .titleAnimation, .styleImg2 .containerAnimation .styleImg4:hover .titleAnimation, .styleImg3 .containerAnimation .styleImg4:hover .titleAnimation, .styleImg4:hover .containerAnimation .titleAnimation, .styleImg5 .containerAnimation .styleImg4:hover .titleAnimation {
   opacity: 0;
 }
 .styleImg4:hover .containerAnimation {
@@ -719,7 +658,7 @@ html {
   opacity: 1;
 }
 
-.styleImg5:hover .titleVolunt2, .styleImg5:hover .titleTake, .styleImg5:hover .titleMarine2, .styleImg1 .containerAnimation .styleImg5:hover .titleAnimation, .styleImg2 .containerAnimation .styleImg5:hover .titleAnimation, .styleImg3 .containerAnimation .styleImg5:hover .titleAnimation, .styleImg4 .containerAnimation .styleImg5:hover .titleAnimation, .styleImg5:hover .containerAnimation .titleAnimation {
+.styleImg5:hover .titleVolunt2, .styleImg5:hover .titleTake, .styleImg5:hover .styleImg13 .titleMarine2, .styleImg13 .styleImg5:hover .titleMarine2, .styleImg5:hover .styleImg12 .titleMarine2, .styleImg12 .styleImg5:hover .titleMarine2, .styleImg5:hover .styleImg11 .titleMarine2, .styleImg11 .styleImg5:hover .titleMarine2, .styleImg5:hover .styleImg10 .titleMarine2, .styleImg10 .styleImg5:hover .titleMarine2, .styleImg5:hover .styleImg9 .titleMarine2, .styleImg9 .styleImg5:hover .titleMarine2, .styleImg5:hover .styleImg8 .titleMarine2, .styleImg8 .styleImg5:hover .titleMarine2, .styleImg5:hover .styleImg7 .titleMarine2, .styleImg7 .styleImg5:hover .titleMarine2, .styleImg5:hover .styleImg6 .titleMarine2, .styleImg6 .styleImg5:hover .titleMarine2, .styleImg1 .containerAnimation .styleImg5:hover .titleAnimation, .styleImg2 .containerAnimation .styleImg5:hover .titleAnimation, .styleImg3 .containerAnimation .styleImg5:hover .titleAnimation, .styleImg4 .containerAnimation .styleImg5:hover .titleAnimation, .styleImg5:hover .containerAnimation .titleAnimation {
   opacity: 0;
 }
 .styleImg5:hover .containerAnimation {
@@ -747,14 +686,6 @@ html {
 
 .altura4 {
   height: 300px;
-}
-
-.titleMarine2 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
 }
 
 .gridContainerMarine {
@@ -793,8 +724,40 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: block;
-  transition: all, 2s;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.styleImg6 .titleMarine2 {
+  z-index: 22;
+}
+.styleImg6 .containerAnimation2 {
+  opacity: 0;
+  transition: all, 1s;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+.styleImg6 .containerAnimation2 a {
+  margin-bottom: 50px;
+  opacity: 0;
+  border: 1px solid #0d1b2a;
+  background-color: #0d1b2a;
+  color: white;
+  padding: 8px;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 1.2rem;
+  position: absolute;
 }
 
 .styleImg7 {
@@ -802,8 +765,40 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: block;
-  transition: all, 2s;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.styleImg7 .titleMarine2 {
+  z-index: 22;
+}
+.styleImg7 .containerAnimation2 {
+  opacity: 0;
+  transition: all, 1s;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+.styleImg7 .containerAnimation2 a {
+  margin-bottom: 50px;
+  opacity: 0;
+  border: 1px solid #0d1b2a;
+  background-color: #0d1b2a;
+  color: white;
+  padding: 8px;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 1.2rem;
+  position: absolute;
 }
 
 .styleImg8 {
@@ -811,8 +806,40 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: block;
-  transition: all, 2s;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.styleImg8 .titleMarine2 {
+  z-index: 22;
+}
+.styleImg8 .containerAnimation2 {
+  opacity: 0;
+  transition: all, 1s;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+.styleImg8 .containerAnimation2 a {
+  margin-bottom: 50px;
+  opacity: 0;
+  border: 1px solid #0d1b2a;
+  background-color: #0d1b2a;
+  color: white;
+  padding: 8px;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 1.2rem;
+  position: absolute;
 }
 
 .styleImg9 {
@@ -820,8 +847,40 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: block;
-  transition: all, 2s;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.styleImg9 .titleMarine2 {
+  z-index: 22;
+}
+.styleImg9 .containerAnimation2 {
+  opacity: 0;
+  transition: all, 1s;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+.styleImg9 .containerAnimation2 a {
+  margin-bottom: 50px;
+  opacity: 0;
+  border: 1px solid #0d1b2a;
+  background-color: #0d1b2a;
+  color: white;
+  padding: 8px;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 1.2rem;
+  position: absolute;
 }
 
 .styleImg10 {
@@ -829,8 +888,40 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: block;
-  transition: all, 2s;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.styleImg10 .titleMarine2 {
+  z-index: 22;
+}
+.styleImg10 .containerAnimation2 {
+  opacity: 0;
+  transition: all, 1s;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+.styleImg10 .containerAnimation2 a {
+  margin-bottom: 50px;
+  opacity: 0;
+  border: 1px solid #0d1b2a;
+  background-color: #0d1b2a;
+  color: white;
+  padding: 8px;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 1.2rem;
+  position: absolute;
 }
 
 .styleImg11 {
@@ -838,8 +929,40 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: block;
-  transition: all, 2s;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.styleImg11 .titleMarine2 {
+  z-index: 22;
+}
+.styleImg11 .containerAnimation2 {
+  opacity: 0;
+  transition: all, 1s;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+.styleImg11 .containerAnimation2 a {
+  margin-bottom: 50px;
+  opacity: 0;
+  border: 1px solid #0d1b2a;
+  background-color: #0d1b2a;
+  color: white;
+  padding: 8px;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 1.2rem;
+  position: absolute;
 }
 
 .styleImg12 {
@@ -847,8 +970,40 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: block;
-  transition: all, 2s;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.styleImg12 .titleMarine2 {
+  z-index: 22;
+}
+.styleImg12 .containerAnimation2 {
+  opacity: 0;
+  transition: all, 1s;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+.styleImg12 .containerAnimation2 a {
+  margin-bottom: 50px;
+  opacity: 0;
+  border: 1px solid #0d1b2a;
+  background-color: #0d1b2a;
+  color: white;
+  padding: 8px;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 1.2rem;
+  position: absolute;
 }
 
 .styleImg13 {
@@ -856,60 +1011,159 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: block;
-  transition: all, 2s;
-}
-
-.styleImg6:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/cephalopods.jpg);
-}
-
-.styleImg7:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/coral.jpg);
-}
-
-.styleImg8:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/marinemammals.jpg);
-}
-
-.styleImg9:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/ecosystems.jpg);
-}
-
-.styleImg10:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/fishes_alt.jpg);
-}
-
-.styleImg11:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/seaturtlesandreptiles.jpg);
-}
-
-.styleImg12:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/seabirds.jpg);
-}
-
-.styleImg13:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/sharks_0.jpg);
-}
-
-.containerMarineLife {
+  position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  flex-wrap: nowrap;
   align-items: center;
+  justify-content: center;
 }
-.containerMarineLife .urlButtonMarine {
+.styleImg13 .titleMarine2 {
+  z-index: 22;
+}
+.styleImg13 .containerAnimation2 {
+  opacity: 0;
+  transition: all, 1s;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+.styleImg13 .containerAnimation2 a {
   margin-bottom: 50px;
-  display: none;
+  opacity: 0;
   border: 1px solid #0d1b2a;
   background-color: #0d1b2a;
   color: white;
   padding: 8px;
   font-family: "ABeeZee", sans-serif;
   font-size: 1.2rem;
+  position: absolute;
 }
 
-.containerMarineLife:hover .urlButtonMarine {
+.styleImg6:hover .containerAnimation2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  opacity: 1;
+}
+.styleImg6:hover .containerAnimation2 a {
+  opacity: 1;
+}
+
+.styleImg7:hover .containerAnimation2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  opacity: 1;
+}
+.styleImg7:hover .containerAnimation2 a {
+  opacity: 1;
+}
+
+.styleImg8:hover .containerAnimation2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  opacity: 1;
+}
+.styleImg8:hover .containerAnimation2 a {
+  opacity: 1;
+}
+
+.styleImg9:hover .containerAnimation2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  opacity: 1;
+}
+.styleImg9:hover .containerAnimation2 a {
+  opacity: 1;
+}
+
+.styleImg10:hover .containerAnimation2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  opacity: 1;
+}
+.styleImg10:hover .containerAnimation2 a {
+  opacity: 1;
+}
+
+.styleImg11:hover .containerAnimation2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  opacity: 1;
+}
+.styleImg11:hover .containerAnimation2 a {
+  opacity: 1;
+}
+
+.styleImg12:hover .containerAnimation2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  opacity: 1;
+}
+.styleImg12:hover .containerAnimation2 a {
+  opacity: 1;
+}
+
+.styleImg13:hover .containerAnimation2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  opacity: 1;
+}
+.styleImg13:hover .containerAnimation2 a {
+  opacity: 1;
+}
+
+.styleImg0 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/download.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.styleImg14 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(../../resources/images/fondotakeaction.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.styleImg15 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/right_whale.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.styleImg16 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/turtlee.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.styleImg17 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/Bike_AmazonHQ.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.styleImg18 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/shutterstock_1430249291.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.styleImg19 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../resources/images/bp_deepwater_horizon_disaster_3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: block;
 }
 
@@ -1259,7 +1513,7 @@ button .iconDark {
   .titleCardAbout {
     font-size: 1.3rem;
   }
-  .titleVolunt2, .styleImg1 .containerAnimation .titleAnimation, .styleImg2 .containerAnimation .titleAnimation, .styleImg3 .containerAnimation .titleAnimation, .styleImg4 .containerAnimation .titleAnimation, .styleImg5 .containerAnimation .titleAnimation, .titleMarine2, .titleTake {
+  .titleVolunt2, .styleImg1 .containerAnimation .titleAnimation, .styleImg2 .containerAnimation .titleAnimation, .styleImg3 .containerAnimation .titleAnimation, .styleImg4 .containerAnimation .titleAnimation, .styleImg5 .containerAnimation .titleAnimation, .styleImg6 .titleMarine2, .styleImg7 .titleMarine2, .styleImg8 .titleMarine2, .styleImg9 .titleMarine2, .styleImg10 .titleMarine2, .styleImg11 .titleMarine2, .styleImg12 .titleMarine2, .styleImg13 .titleMarine2, .titleTake {
     font-size: 1.7rem;
   }
   .textTake {
@@ -1357,11 +1611,32 @@ button .iconDark {
   .fondoAbout .textVolunt {
     font-size: 1rem;
   }
-  .titleVolunt2, .styleImg1 .containerAnimation .titleAnimation, .styleImg2 .containerAnimation .titleAnimation, .styleImg3 .containerAnimation .titleAnimation, .styleImg4 .containerAnimation .titleAnimation, .styleImg5 .containerAnimation .titleAnimation, .titleMarine2, .titleTake {
+  .titleVolunt2, .styleImg1 .containerAnimation .titleAnimation, .styleImg2 .containerAnimation .titleAnimation, .styleImg3 .containerAnimation .titleAnimation, .styleImg4 .containerAnimation .titleAnimation, .styleImg5 .containerAnimation .titleAnimation, .styleImg6 .titleMarine2, .styleImg7 .titleMarine2, .styleImg8 .titleMarine2, .styleImg9 .titleMarine2, .styleImg10 .titleMarine2, .styleImg11 .titleMarine2, .styleImg12 .titleMarine2, .styleImg13 .titleMarine2, .titleTake {
     padding-top: 1.3rem;
     padding-left: 1rem;
   }
-  .containerMarineLife .urlButtonMarine {
+  .styleImg6:hover .containerAnimation2 a {
+    font-size: 1rem;
+  }
+  .styleImg7:hover .containerAnimation2 a {
+    font-size: 1rem;
+  }
+  .styleImg8:hover .containerAnimation2 a {
+    font-size: 1rem;
+  }
+  .styleImg9:hover .containerAnimation2 a {
+    font-size: 1rem;
+  }
+  .styleImg10:hover .containerAnimation2 a {
+    font-size: 1rem;
+  }
+  .styleImg11:hover .containerAnimation2 a {
+    font-size: 1rem;
+  }
+  .styleImg12:hover .containerAnimation2 a {
+    font-size: 1rem;
+  }
+  .styleImg13:hover .containerAnimation2 a {
     font-size: 1rem;
   }
   .containerFormContact .containerText h3 {

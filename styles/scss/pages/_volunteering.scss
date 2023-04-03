@@ -11,16 +11,6 @@
     font-size: 2rem;
 }
 
-@each $nombre,
-$estilos in $images1 {
-    .style#{$nombre} {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), $estilos;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: block;
-    }
-}
 
 @each $nombre,
 $estilos in $images2 {
@@ -30,7 +20,6 @@ $estilos in $images2 {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        height: 465px;
 
         .containerAnimation {
             opacity: 0;
@@ -40,11 +29,7 @@ $estilos in $images2 {
             background-size: cover;
             position: absolute;
             top: 0;
-            display: flex;
-            flex-wrap: nowrap;
-            flex-direction: column;
-            justify-content: flex-end;
-            align-items: center;
+            @include displayFlex ($justify: flex-end);
 
             .titleAnimation {
                 opacity: 0;

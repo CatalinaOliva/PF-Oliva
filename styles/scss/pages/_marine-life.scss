@@ -1,10 +1,5 @@
 @import "../utils/variables";
 
-.titleMarine2 {
-    @extend .titleVolunt2;
-    @include displayFlex ($ubicacion: wrap);
-}
-
 .gridContainerMarine {
     display: grid;
     grid-template-areas:
@@ -55,38 +50,51 @@ $estilos in $images3 {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        display: block;
-        transition: all, 2s;
+        position: relative;
+        @include displayFlex;
+
+        .titleMarine2 {
+            @extend .titleVolunt2;
+            z-index: 22;
+        }
+
+        .containerAnimation2 {
+            opacity: 0;
+            transition: all, 1s;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 0;
+            @include displayFlex ($justify: flex-end);
+
+            a {
+                margin-bottom: 50px;
+                opacity: 0;
+                border: 1px solid #0d1b2a;
+                background-color: #0d1b2a;
+                color: white;
+                padding: 8px;
+                font-family: $font-text;
+                font-size: 1.2rem;
+                position: absolute;
+            }
+        }
+
     }
 }
 
 @each $nombre,
 $estilos in $images3 {
     .style#{$nombre}:hover {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), $estilos;
-    }
-}
 
-.containerMarineLife {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+        .containerAnimation2 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700));
+            opacity: 1;
 
-    .urlButtonMarine {
-        margin-bottom: 50px;
-        display: none;
-        border: 1px solid #0d1b2a;
-        background-color: #0d1b2a;
-        color: white;
-        padding: 8px;
-        font-family: $font-text;
-        font-size: 1.2rem;
-    }
-}
-
-.containerMarineLife:hover {
-    .urlButtonMarine {
-        display: block;
+            a {
+                opacity: 1;
+            }
+        }
     }
 }

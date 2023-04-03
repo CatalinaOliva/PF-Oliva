@@ -1,5 +1,27 @@
 @import "../utils/variables";
 
+@each $nombre,
+$estilos in $images1 {
+    .style#{$nombre} {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), $estilos;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+    }
+}
+
+@each $nombre,
+$estilos in $images4 {
+    .style#{$nombre} {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), $estilos;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+    }
+}
+
 .textTake {
     font-family: $font-text;
     font-size: 1.2rem;

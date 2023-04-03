@@ -413,9 +413,14 @@
     }
 
     // marine life
-    .containerMarineLife {
-        .urlButtonMarine {
-            font-size: 1rem;
+    @each $nombre,
+    $estilos in $images3 {
+        .style#{$nombre}:hover {
+            .containerAnimation2 {
+                a {
+                    font-size: 1rem;
+                }
+            }
         }
     }
 
