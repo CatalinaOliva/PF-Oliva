@@ -1,23 +1,23 @@
 @import "../utils/variables";
 
 // home
- .btn-info {
-    border-radius: 0;
-    --bs-btn-bg: #0d1b2a;
-    --bs-btn-border-color: none;
-    --bs-btn-hover-bg: white;
+.btn-info {
+   border-radius: 0;
+   --bs-btn-bg: #0d1b2a;
+   --bs-btn-border-color: none;
+   --bs-btn-hover-bg: white;
 
-    a:hover {
-        color: #0d1b2a;
-    }
- }
+   a:hover {
+      color: #0d1b2a;
+   }
+}
 
- .btn-primary {
-    border-radius: 0;
-    --bs-btn-bg: #415a77;
-    --bs-btn-border-color: none;
-    --bs-btn-hover-bg: #0d1b2a;
- }
+.btn-primary {
+   border-radius: 0;
+   --bs-btn-bg: #415a77;
+   --bs-btn-border-color: none;
+   --bs-btn-hover-bg: #0d1b2a;
+}
 
 .btn-light {
    --bs-btn-bg: #162e47;

@@ -344,11 +344,7 @@
 
     .margin {
         margin-top: 50px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
+        @include displayFlex;
     }
 
     .padding {

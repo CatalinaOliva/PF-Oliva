@@ -163,11 +163,7 @@
 
 // cards
 .solutionAbout {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+    @include displayFlex;
     height: 50vh;
 
     h5 {
